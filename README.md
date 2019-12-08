@@ -1,10 +1,10 @@
 # Towards a city congestion index: methodological explorations using Google's Distance Matrix API
-#### KeywordsC:
+#### Keywords:
 Congestion, Accessibility, Spatial Inequalities
 
 ##### Jonathan Cohen & Jorge Gil
 ###### Department of Architecture and Civil Engineering, Chalmers University of Technology
-*email{jonathan.cohen@chalmers.se*
+*email: jonathan.cohen@chalmers.se*
 
 ## Abstract
 ### Introduction:
