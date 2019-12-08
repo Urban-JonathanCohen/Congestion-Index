@@ -18,7 +18,7 @@ This work provides a methodology for measuring traffic congestion and studies ho
 The method proposed takes Census Tracks as Geographical Unit (GU) of metropolitan regions. Using Goolge's API, travel times and distances from each GU to all other are retrieved. A a data-set of n * (n - 1) trip details is constructed for a 'congested' and a 'non-congested' situation. The average difference between these situations is calculated for each GU; resulting in the Congested Index. \par
 
 ### Results:
-The tool is tested for Goteborg and Amsterdam. A map of the synthetic Congestion measurement is used to capture the phenomena within each city. Mapping and visualising the Index allows to identify which areas need improvement. The Congestion values can be used to understand if the problem affects equally different population groups in terms of income, age or ethnicity. \par
+The tool is tested for Goteborg and Amsterdam. A map of the synthetic Congestion measurement is used to capture the phenomena within each city. Mapping and visualising the Index allows to identify which areas need improvement. The Congestion values can be used to understand if the problem affects equally different population groups in terms of income, age or ethnicity.
 
 
 ### Conclusions:
