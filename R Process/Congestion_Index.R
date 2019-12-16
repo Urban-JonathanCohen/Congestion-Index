@@ -562,7 +562,6 @@ all_for_plt <- function(city_name='',city_best, city_worst){
 
 
 # Aggregate and get data avergaes for plotting
-
 avgs <- as.data.frame(all_cities %>%
                         group_by(city_name,cat) %>%
                         summarise_each(funs(mean)))
@@ -572,6 +571,22 @@ avgs = subset(avgs, select = -c(or,de,status, or_name, de_name,cat2))
 
 avgs<-avgs[!(avgs$cat=="25000-30000" ),]
 
-positions <- c("GÃ¶teborg", "Amsterdam", "Glasgow", "Lisbon")
+positions <- c("Göteborg", "Amsterdam", "Glasgow", "Lisbon")
 avgs$city_name <- factor(avgs$city_name, levels = positions)
+
+
+##############################################################
+
+avgs1 <- as.data.frame(na.omit(subset(all_cities, 
+                              select = -c(or,de,status, or_name, de_name,cat2,cat))) %>%
+                        group_by(city_name) %>%
+                        summarise_each(funs(mean)))
+
+
+
+positions <- c("Göteborg", "Amsterdam", "Glasgow", "Lisbon")
+avgs1$city_name <- factor(avgs1$city_name, levels = positions)
+
+
+
 
