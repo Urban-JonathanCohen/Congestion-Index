@@ -368,8 +368,8 @@ end_of_aggregation <- function(city_map_SF_worst,
   # Worst - Best times
   city_map$time_diff <- (city_map$worst_traff_dura - city_map$best_traff_dura)
   city_map$dist_diff <- (city_map$worst_dist - city_map$best_dist)
+  city_map$speed_diff <- (city_map$worst_speed_dura - city_map$best_speed_dura)
   
-
   # Time in mins
   city_map$time_diff_min <- city_map$time_diff / 60
 
@@ -381,8 +381,6 @@ end_of_aggregation <- function(city_map_SF_worst,
   
   return(city_map)
 }
-
-
 
 
 
@@ -412,6 +410,34 @@ histo_city <- function(city_name){
 }
 
 
+# Graphs
+#1- Histogram - speed
+histo_city_s <- function(city_name){
+  city_name <- as.data.frame(city_name)
+  
+  repeat_val_bad <- length(city_name$worst_dura)
+  repeat_val_good <- length(city_name$worst_dura)
+  
+  city_hist <- data.frame(
+    type = c( rep("Average condition (Speed)", repeat_val_bad), 
+              rep("Morning rush hour (Speed)", repeat_val_bad),
+              rep("Free flow traffic (Speed)", repeat_val_good)
+    ),
+    value = c(city_name$worst_speed, 
+              city_name$worst_speed_dura,
+              city_name$best_speed_dura)
+  )
+  
+  # Plot 0
+  ggplot(data=city_hist, aes(x=value, group=type, fill=type)) +
+    geom_density(adjust=1.5, alpha=.4) +
+    xlim(c(10,85))+
+    theme_ipsum()
+  
+}
+
+
+
 
 #2 - scatter
 city_scatter <- function(city_name_best, city_name_worst){
@@ -431,6 +457,26 @@ city_scatter <- function(city_name_best, city_name_worst){
              hape=type, color=type)) + 
     geom_point(alpha = 4/10)
 }
+
+city_scatter_s <- function(city_name_best, city_name_worst){
+  
+  city_name_worst <- clean_1st(city_name_worst)
+  city_name_best <- clean_1st(city_name_best)
+  
+  city_name_worst$type <- c(rep('Morning Rush hour', length(city_name_worst$id)))
+  city_name_best$type  <- c(rep('Free flow', length(city_name_best$id)))
+  
+  all <- do.call('rbind', list(city_name_worst,city_name_best))
+  
+  
+  ggplot(all, 
+         aes(x=distance , 
+             y=speed_dur_traffic, 
+             hape=type, color=type)) +
+    geom_point(alpha = 4/10) + 
+    ylim(c(0,100))
+}
+
 
 
 #3-histogram
@@ -453,7 +499,9 @@ export_maps_n_graphs <- function(city,
                                  city_best, 
                                  city_worst){
   
-  variable = c("worst_dist", "worst_dura", "worst_traff_dura", "best_dura", "best_traff_dura", "time_diff_min","time_diff_rel","tti")
+  variable = c("worst_dist", "worst_dura", "worst_traff_dura", 
+               "best_dura", "best_traff_dura", "speed_diff", 
+               "time_diff_min","time_diff_rel","tti")
   
   for (i in 1:length(variable)){
     print(i)
@@ -471,7 +519,12 @@ export_maps_n_graphs <- function(city,
   city_scatter(city_best, city_worst)
   ggsave(paste('scatter_min_dif',city_name,'.png',sep=""))
   
+  histo_city_s(city)
+  ggsave(paste('hist_s',city_name,'.png',sep=""))
   
+  
+  city_scatter_s(city_best, city_worst)
+  ggsave(paste('scatter_s_dif',city_name,'.png',sep=""))
   
   
 }
@@ -562,7 +615,7 @@ avgs = subset(avgs, select = -c(or,de,status, or_name, de_name,cat2))
 
 avgs<-avgs[!(avgs$cat=="25000-30000" ),]
 
-positions <- c("Göteborg", "Amsterdam", "Glasgow", "Lisbon")
+positions <- c("Goteborg", "Amsterdam", "Glasgow", "Lisbon")
 avgs$city_name <- factor(avgs$city_name, levels = positions)
 
 
@@ -575,7 +628,7 @@ avgs1 <- as.data.frame(na.omit(subset(all_cities,
 
 
 
-positions <- c("Göteborg", "Amsterdam", "Glasgow", "Lisbon")
+positions <- c("Goteborg", "Amsterdam", "Glasgow", "Lisbon")
 avgs1$city_name <- factor(avgs1$city_name, levels = positions)
 
 
