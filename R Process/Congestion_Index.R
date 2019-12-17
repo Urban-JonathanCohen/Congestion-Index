@@ -253,6 +253,7 @@ clean_1st <- function(data){
   data_clean$speed_dur <- ((data_clean$distance/1000) / (data_clean$min_dur/60/60))
   data_clean$speed_dur_traffic <- ((data_clean$distance/1000) / (data_clean$min_dur_traffic/60/60))
 
+  
   return(data_clean)
 
 }
@@ -294,63 +295,48 @@ aggrergate_n_merge_w_grid <- function(orig_file = 'grid_file',
   
   # Clean the data
   city_estimate_2 <- clean_1st(city_estimate)
-  # print('# Clean the data')
   
   # Make a copy of data
   write.csv(city_estimate_2,paste(city_name, '2.csv',sep=''))
-  # print('# Make a copy of data')
   
   # Read the points datafile for future merging
   city_pnts <- read_shape(pnts_shp, as.sf = TRUE)
-  # print('# Read the points datafile for future merging')
   
   # Secure the data set before doing operations
   city_estimate_3 <- city_estimate_2
-  # print('# Secure the data set before doing operations')
+  
   city_estimate_3$type <- c(rep(est_type, length(city_estimate_3$id)))
-  # print('# Secure the data set before doing operations')
+  
   
   # Aggregate and merge - best
   ##########################################
   agg_city <- aggregation(city_estimate_3)
-  # print('# Aggregate and merge - best')
+  
   list_coords <- strsplit(as.character(agg_city$id), "[+]")
   orig_xcoords <- unlist(lapply(list_coords, '[[', 1))
-  # print('# Aggregate and merge - best')
   
   agg_city$x_coord_id <- orig_xcoords
-  # print(agg_city)
   
   # Merge data -> points
-  # print(class(city_pnts))
-  
   city_pnts_esti <-  merge(city_pnts, agg_city, by.x = "X1", by.y = "x_coord_id")
-  # print('# Merge data -> points')
+  
   city_pnts_esti <- city_pnts_esti[city_pnts_esti$count > 1,]
-  # print('# Merge data -> points')
+  
   city_pnts_esti_df <- data.frame(city_pnts_esti)
-  # print('# Merge data -> points')
-  # print(city_pnts_esti_df)
-  # print(class(city_pnts_esti_df))
-
   
   city_pnts_esti_df <- subset(city_pnts_esti_df, select = -geometry )
-  # print('# Merge data -> points')
 
   # Merge points -> grid
   map_SF <- read_shape(orig_file, as.sf = TRUE)
-  # print('# Merge points -> grid')
-  print(head(map_SF))
-  print(head(city_pnts_esti_df))
+  
   city_map_SF <- merge(map_SF, city_pnts_esti_df,  by = by_merge)
-  print('# Merge points -> grid')
+  
   return(city_map_SF)
 }
 
 
 
 # SF is faster
-
 end_of_aggregation <- function(city_map_SF_worst,
                                city_map_SF_best,
                                id_name='OBJECTID or GRD_ID'){
@@ -390,11 +376,11 @@ end_of_aggregation <- function(city_map_SF_worst,
   # Relative measure
   city_map$time_diff_rel <- (city_map$worst_traff_dura - city_map$best_traff_dura)/(city_map$worst_traff_dura)
   
+  # Travel time index
+  city_map$tti <- city_map$best_traff_dura/city_map$worst_traff_dura
   
   return(city_map)
 }
-
-
 
 
 
@@ -424,6 +410,8 @@ histo_city <- function(city_name){
     theme_ipsum()
   
 }
+
+
 
 #2 - scatter
 city_scatter <- function(city_name_best, city_name_worst){
@@ -465,7 +453,7 @@ export_maps_n_graphs <- function(city,
                                  city_best, 
                                  city_worst){
   
-  variable = c("worst_dist", "worst_dura", "worst_traff_dura", "best_dura", "best_traff_dura", "time_diff_min","time_diff_rel")
+  variable = c("worst_dist", "worst_dura", "worst_traff_dura", "best_dura", "best_traff_dura", "time_diff_min","time_diff_rel","tti")
   
   for (i in 1:length(variable)){
     print(i)
@@ -528,6 +516,9 @@ all_for_plt <- function(city_name='',city_best, city_worst){
   city_all$time_diff_rel <- (city_all$worst_traff_dura - city_all$best_traff_dura)/(city_all$worst_traff_dura)
   #print('9')
   
+  # Relative measure
+  city_all$tti <- city_all$best_traff_dura/city_all$worst_traff_dura
+  
   city_all<-city_all[!(city_all$time_diff_rel <= -10),]
   
   
@@ -571,7 +562,7 @@ avgs = subset(avgs, select = -c(or,de,status, or_name, de_name,cat2))
 
 avgs<-avgs[!(avgs$cat=="25000-30000" ),]
 
-positions <- c("Göteborg", "Amsterdam", "Glasgow", "Lisbon")
+positions <- c("GÃ¶teborg", "Amsterdam", "Glasgow", "Lisbon")
 avgs$city_name <- factor(avgs$city_name, levels = positions)
 
 
@@ -584,7 +575,7 @@ avgs1 <- as.data.frame(na.omit(subset(all_cities,
 
 
 
-positions <- c("Göteborg", "Amsterdam", "Glasgow", "Lisbon")
+positions <- c("GÃ¶teborg", "Amsterdam", "Glasgow", "Lisbon")
 avgs1$city_name <- factor(avgs1$city_name, levels = positions)
 
 
