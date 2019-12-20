@@ -1,5 +1,7 @@
 \documentclass[a4paper]{jpconf}
 \usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
 \begin{document}
 \title{Towards a city congestion index: methodological explorations using Google's Distance Matrix API}
 
@@ -33,7 +35,67 @@
 \indent The methodolgy detailed above The information requirements for this study are relatively low. As explained above, as the method genereates the data there 
 
 
+\begin{table}[ht]	
+	\caption {Descriptive Statistics}
+	\label{Results}
+	\centering
+	\begin{tabular}{rlrrrrrr}
+		\hline
+		& Time Difference (mins) & Routes & N & Mean & S.D. & Min & Max \\ 
+		\hline
+		1 & Amsterdam	& 30,564 & 15,282 & 8.22 	& 4.54 & -1.37 & 39.62 \\ 
+		2 & Glasgow 	& 33,512 & 16,756 & 10.99 	& 5.39 & -0.25 & 34.08 \\ 
+		3 & Goteborg 	& 29,248 & 14,624 & 4.89 	& 2.35 & -1.25 & 14.78 \\ 
+		4 & Lisbon 		& 25,870 & 12,935 & 15.21 	& 7.26 & -0.33 & 40.67 \\
+		
+		\hline
+		& TTI & Routes &  N & Mean & S.D. & Min & Max \\ 
+		\hline
+		1 & Amsterdam & 30,564 & 15,282 & 1.84 & 5.08 & 0.79 & 397.17 \\ 
+		2 & Glasgow   & 33,512 & 16,756 & 1.93 & 0.33 & 0.93 & 3.73 \\ 
+		3 & Goteborg  & 29,248 & 14,624 & 1.38 & 0.17 & 0.86 & 2.42 \\ 
+		4 & Lisbon    & 25,870 & 12,935 & 2.23 & 0.50 & 0.92 & 5.26 \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+
 \section{Results and discusison}
+
+
+
+
+
+\begin{table}[ht]	
+	\caption {Descriptive Statistics}
+	\label{Results}
+	\centering
+	\begin{tabular}{rlrrrrrr}
+		\hline
+		& Time Difference (mins) & Cells & Mean & S.D. & Min & Max \\ 
+		\hline
+		1 & Amsterdam 	& 131 & 8.57  & 2.39 & 5.38 & 19.03 \\ 
+		2 & Glasgow 	& 136 & 11.15 & 1.88 & 7.66 & 15.64 \\ 
+		3 & Goteborg 	& 123 & 4.92  & 0.99 & 3.22 & 8.06  \\ 
+		4 & Lisbon 		& 119 & 15.34 & 2.67 & 9.74 & 21.57 \\ 
+		
+		\hline
+		& TTI & Cells & Mean & S.D. & Min & Max \\ 
+		\hline
+		1 & Amsterdam 	& 131 & 1.74 & 0.23 & 1.36 & 2.61 \\ 
+		2 & Glasgow 	& 136 & 1.94 & 0.14 & 1.60 & 2.31 \\ 
+		3 & Goteborg	& 123 & 1.38 & 0.09 & 1.21 & 1.69 \\ 
+		4 & Lisbon 		& 119 & 2.21 & 0.16 & 1.70 & 2.57 \\ 
+		\hline
+	\end{tabular}
+\end{table}
+
+
+
+
+
 \section{Conclusion}
 
 \end{document}

@@ -152,17 +152,3 @@ mapview(goteborg, zcol = "tti")
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-

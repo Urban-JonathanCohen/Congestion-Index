@@ -629,7 +629,6 @@ avgs$city_name <- factor(avgs$city_name, levels = positions)
 
 
 ##############################################################
-
 avgs1 <- as.data.frame(na.omit(subset(all_cities, 
                               select = -c(or,de,status, or_name, de_name,cat2,cat))) %>%
                         group_by(city_name) %>%
