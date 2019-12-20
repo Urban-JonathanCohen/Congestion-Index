@@ -1,6 +1,11 @@
+########################################
 # Preparation for BEYOND 2020
+# Author: Jonathan Cohen
+# Date: 20-12-2019
 ####################################
-# Test code for Lisbon Area
+
+
+# Loading of libs
 library(ggplot2)
 library(rgeos)
 library(maptools)
@@ -23,7 +28,7 @@ library(hrbrthemes)
 library(ggridges)
 library(viridis)
 library(RColorBrewer)
-
+library(ggExtra)
 
 # Define functions for the project
 viz <- function(file = 'goteborg_clip.shp'){
@@ -339,7 +344,8 @@ aggrergate_n_merge_w_grid <- function(orig_file = 'grid_file',
 # SF is faster
 end_of_aggregation <- function(city_map_SF_worst,
                                city_map_SF_best,
-                               id_name='OBJECTID or GRD_ID'){
+                               id_name='OBJECTID or GRD_ID',
+                               name_of_city = 'THE CITY NAME HERE'){
   
   
   city_map_SF_worst <- dplyr::select(city_map_SF_worst,
@@ -368,7 +374,7 @@ end_of_aggregation <- function(city_map_SF_worst,
   # Worst - Best times
   city_map$time_diff <- (city_map$worst_traff_dura - city_map$best_traff_dura)
   city_map$dist_diff <- (city_map$worst_dist - city_map$best_dist)
-  city_map$speed_diff <- (city_map$worst_speed_dura - city_map$best_speed_dura)
+  city_map$speed_diff <- (city_map$best_speed_dura - city_map$worst_speed_dura)
   
   # Time in mins
   city_map$time_diff_min <- city_map$time_diff / 60
@@ -377,7 +383,10 @@ end_of_aggregation <- function(city_map_SF_worst,
   city_map$time_diff_rel <- (city_map$worst_traff_dura - city_map$best_traff_dura)/(city_map$worst_traff_dura)
   
   # Travel time index
-  city_map$tti <- city_map$best_traff_dura/city_map$worst_traff_dura
+  city_map$tti <- city_map$worst_traff_dura/city_map$best_traff_dura
+  
+  repeat_val<- length(city_map$tti)
+  city_map$city_ <- c(rep(name_of_city, repeat_val))
   
   return(city_map)
 }
@@ -508,23 +517,23 @@ export_maps_n_graphs <- function(city,
   
     map <- mapview(city, zcol = variable[i])
     print(paste(getwd(), "/",city_name, variable[i], ".png",sep=""))
-    mapshot(map, file = paste(getwd(), "/",city_name, variable[i], ".png",sep=""))
+    mapshot(map, file = paste(getwd(), "/",city_name,'_', variable[i], ".png",sep=""))
   }
   
     
   histo_city(city)
-  ggsave(paste('hist_',city_name,'.png',sep=""))
+  ggsave(paste('01_hist_',city_name,'.png',sep=""))
 
   
   city_scatter(city_best, city_worst)
-  ggsave(paste('scatter_min_dif',city_name,'.png',sep=""))
+  ggsave(paste('02_scatter_min_dif_',city_name,'.png',sep=""))
   
   histo_city_s(city)
-  ggsave(paste('hist_s',city_name,'.png',sep=""))
+  ggsave(paste('03_hist_s_',city_name,'.png',sep=""))
   
   
   city_scatter_s(city_best, city_worst)
-  ggsave(paste('scatter_s_dif',city_name,'.png',sep=""))
+  ggsave(paste('04_scatter_s_dif_',city_name,'.png',sep=""))
   
   
 }
@@ -570,9 +579,9 @@ all_for_plt <- function(city_name='',city_best, city_worst){
   #print('9')
   
   # Relative measure
-  city_all$tti <- city_all$best_traff_dura/city_all$worst_traff_dura
+  city_all$tti <- city_all$worst_traff_dura/city_all$best_traff_dura
   
-  city_all<-city_all[!(city_all$time_diff_rel <= -10),]
+  city_all <- city_all[!(city_all$time_diff_rel <= -10),]
   
   
   repeat_val<- length(city_all$time_diff_rel)
