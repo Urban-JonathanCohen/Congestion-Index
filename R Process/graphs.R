@@ -1,7 +1,30 @@
+########################################
+# Preparation for BEYOND 2020
+# Author: Jonathan Cohen
+# Date: 20-12-2019
+####################################
 
 ####################################################
 # Stats about the city aggregation level
 ####################################################
+################################################################
+# Data preparation
+#####################################
+amsterdam_all <- all_for_plt("Amsterdam",amsterdam_best,amsterdam_worst)
+lisbon_all    <- all_for_plt("Lisbon",lisbon_best,lisbon_worst)
+goteborg_all  <- all_for_plt("Goteborg",goteborg_best,goteborg_worst)
+glasgow_all   <- all_for_plt("Glasgow",glasgow_best,glasgow_worst)
+
+
+# rbind(cbind(stack(A), group='A'), cbind(stack(B), group='B'))
+all_cities <- rbind(lisbon_all,
+                    amsterdam_all,
+                    glasgow_all,
+                    goteborg_all)
+
+
+
+# Store outputs here
 setwd('C:/Users/edgardo/Box Sync/01_BEYOND2020/Results')
 
 
@@ -12,6 +35,9 @@ export_maps_n_graphs(lisbon, city_name='lisbon', lisbon_best, lisbon_worst)
 export_maps_n_graphs(amsterdam, city_name='amsterdam', amsterdam_best, amsterdam_worst)
 export_maps_n_graphs(goteborg, city_name='goteborg', goteborg_best, goteborg_worst)
 export_maps_n_graphs(glasgow, city_name='glasgow', glasgow_best, glasgow_worst)
+
+
+
 
 #######################################################
 # 2- Histograms
@@ -55,10 +81,6 @@ ggsave(paste('06_amsterdam_s_dif.png',sep=""))
 #####################################################################
 # 4- scatters
 ####################################################################
-amsterdam_all <- all_for_plt("Amsterdam",amsterdam_best,amsterdam_worst)
-lisbon_all    <- all_for_plt("Lisbon",lisbon_best,lisbon_worst)
-goteborg_all  <- all_for_plt("Goteborg",goteborg_best,goteborg_worst)
-glasgow_all   <- all_for_plt("Glasgow",glasgow_best,glasgow_worst)
 
 
 # Time difference relative
@@ -263,11 +285,7 @@ ggsave('09_glasgow_tti.png')
 ##################################################################
 # 6- All cities - all trips
 ##################################################################
-# rbind(cbind(stack(A), group='A'), cbind(stack(B), group='B'))
-all_cities <- rbind(lisbon_all,
-                    amsterdam_all,
-                    glasgow_all,
-                    goteborg_all)
+
 
 # all
 ggplot(na.omit(all_cities[which(all_cities$time_diff_min>0),] ),aes(x= factor(cat), y=time_diff_min))+
@@ -591,10 +609,4 @@ ggsave('15_speed_amst.png', ggMarginal(amst_s, type="histogram"))
 ggsave('15_time_got.png', ggMarginal(gote_t, type="histogram"))
 ggsave('15_rel_got.png', ggMarginal(gote_r, type="histogram"))
 ggsave('15_speed_got.png', ggMarginal(gote_s, type="histogram"))
-
-
-
-########################################################################
-# 10- STATS AND TABLES
-########################################################################
 

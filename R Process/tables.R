@@ -2,11 +2,19 @@ library(stargazer)
 library(xtable)
 library(dplyr)
 
+all_cities_tbl <- rbind(all_for_tbl("Amsterdam",clean_1st(amsterdam_best),clean_1st(amsterdam_worst)),
+                        all_for_tbl("Lisbon",clean_1st(lisbon_best),clean_1st(lisbon_worst)),
+                        all_for_tbl("Goteborg",clean_1st(goteborg_best),clean_1st(goteborg_worst)),
+                        all_for_tbl("Glasgow",clean_1st(glasgow_best),clean_1st(glasgow_worst))
+                        )
+
+# or use all_cities
+
 stargazer(lisbon$tti)
 
-tapply(all_cities$tti, all_cities$city_name, summary)
+tapply(all_cities_tbl$tti, all_cities_tbl$city_name, summary)
 
-tti_table <- na.omit(all_cities) %>% 
+tti_table <- na.omit(all_cities_tbl) %>% 
   group_by(city_name) %>% 
   summarize(Routes = length(tti)*2,
             N= length(tti),
@@ -16,7 +24,7 @@ tti_table <- na.omit(all_cities) %>%
             Max = max(tti)
             )
 
-time_diff_table <- na.omit(all_cities) %>% 
+time_diff_table <- na.omit(all_cities_tbl) %>% 
   group_by(city_name) %>% 
   summarize(Routes = length(time_diff_min)*2,
             N= length(time_diff_min),

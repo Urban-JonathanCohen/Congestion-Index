@@ -146,9 +146,35 @@ mapview(goteborg, zcol = "time_diff")
 mapview(goteborg, zcol = "worst_dist")
 mapview(goteborg, zcol = "time_diff_min")
 mapview(goteborg, zcol = "time_diff_rel")
+
+
 mapview(goteborg, zcol = "tti")
+mapview(glasgow, zcol = "tti")
+mapview(lisbon, zcol = "tti")
+mapview(amsterdam, zcol = "tti")
+
+mapview(goteborg, zcol = "time_diff_min")
+mapview(glasgow, zcol = "time_diff_min")
+mapview(lisbon, zcol = "time_diff_min")
+mapview(amsterdam, zcol = "time_diff_min")
 
 
 
+aggregation(clean_1st(goteborg_best))$count_yes
+aggregation(clean_1st(goteborg_worst))$count_yes
 
+aggregation(clean_1st(glasgow_best))$count_yes
+aggregation(clean_1st(glasgow_worst))$count_yes
+
+aggregation(clean_1st(amsterdam_best))$count_yes
+aggregation(clean_1st(amsterdam_worst))$count_yes
+
+aggregation(clean_1st(lisbon_best))$count_yes
+aggregation(clean_1st(lisbon_worst))$count_yes
+
+
+mapview(goteborg,    zcol  = "best_count_y")
+mapview(glasgow,     zcol  = "best_count_y")
+mapview(lisbon,      zcol  = "best_count_y")
+mapview(amsterdam,   zcol  = "best_count_y")
 

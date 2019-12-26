@@ -24,6 +24,8 @@ library(XML)
 library(RCurl)
 library(pastecs)
 library(dplyr)
+library(tidyr)
+library(tidyverse)
 library(hrbrthemes)
 library(ggridges)
 library(viridis)
@@ -252,13 +254,18 @@ data_build <- function(od_mat, mode = 'driving', departure = 'now',
 # Clean & aggregate
 clean_1st <- function(data){
   data_clean <- data
+  #print(length(data_clean$or_id))
+  
   data_clean <- subset(data_clean, (data$or_id !=data$de_id))
+  #print(length(data_clean$or_id))
+  
   data_clean[data_clean == 0] <- NA
+  #print(length(data_clean$or_id))
   
   data_clean$speed_dur <- ((data_clean$distance/1000) / (data_clean$min_dur/60/60))
   data_clean$speed_dur_traffic <- ((data_clean$distance/1000) / (data_clean$min_dur_traffic/60/60))
 
-  
+  #print(length(data_clean$or_id))
   return(data_clean)
 
 }
@@ -272,7 +279,11 @@ aggregation <- function(data){
   # Means
   data_new$count <- c(aggregate(data[,9], 
             list(data$or),
-            FUN=function(x) {sum(!is.na(x))}))$x
+            FUN=function(x) {sum(!is.na(x))}), na.action = NULL)$x
+  
+  data_new$count_yes <- c(aggregate(data[,9], 
+                                list(data$or),
+                                FUN=function(x) {NROW(x)}), na.action = NULL)$x
   
   
   data_new$dist <- c(aggregate(data[,9], list(data$or),
@@ -350,6 +361,8 @@ end_of_aggregation <- function(city_map_SF_worst,
   
   city_map_SF_worst <- dplyr::select(city_map_SF_worst,
                                      id_name: X2,
+                                     worst_count         = count,
+                                     worst_count_y       = count_yes,
                                      worst_dist          = dist,
                                      worst_dura          = dur,
                                      worst_traff_dura    = trafdur,
@@ -359,6 +372,8 @@ end_of_aggregation <- function(city_map_SF_worst,
   
   city_map_SF_best <- dplyr::select(city_map_SF_best,
                                     id_name: X2,
+                                    best_count         = count,
+                                    best_count_y       = count_yes,
                                     best_dist          = dist,
                                     best_dura          = dur,
                                     best_traff_dura    = trafdur,
@@ -540,43 +555,48 @@ export_maps_n_graphs <- function(city,
 
 
 all_for_plt <- function(city_name='',city_best, city_worst){
-  #print('6')
+  
+  print(colnames(city_best))
   city_best_3 <- clean_1st(city_best)
+  print(colnames(city_best_3))
   
   city_worst_3 <- clean_1st(city_worst)
-  #print('6')
+  
   city_best_3[city_best_3 == 0] <- NA
   city_worst_3[city_worst_3 == 0] <- NA
-  #print('6')
-  city_all_worst<- dplyr::select(city_worst_3,
-                                id: distance,
-                                worst_dura          = min_dur,
-                                worst_traff_dura    = min_dur_traffic,
-                                worst_speed         = speed_dur,
-                                worst_speed_dura    = speed_dur_traffic)
-  #print(head(city_all_best))
+  print(colnames(city_best_3))
+  
+  print(colnames(city_worst_3))
+  
+  
+  city_all_worst <- dplyr::select(city_worst_3,
+                                  id: distance,
+                                  worst_dura          = min_dur,
+                                  worst_traff_dura    = min_dur_traffic,
+                                  worst_speed         = speed_dur,
+                                  worst_speed_dura    = speed_dur_traffic)
+  print(head(city_all_worst))
 
 
+  print(head(city_best_3))
   city_all_best <- dplyr::select(city_best_3,
                                   id: distance,
                                   best_dura          = min_dur,
                                   best_traff_dura    = min_dur_traffic,
                                   best_speed         = speed_dur,
                                   best_speed_dura    = speed_dur_traffic)
-  #print(head(city_all_worst))
+  print(head(city_all_worst))
   city_all <- merge(city_all_best, city_all_worst)
-  #print('6')
+  
   
   # Worst - Best times
   city_all$time_diff <- (city_all$worst_traff_dura - city_all$best_traff_dura)
   
-  #print('7')
   # Time in mins
   city_all$time_diff_min <- city_all$time_diff / 60
-  #print('8')
+  
   # Relative measure
   city_all$time_diff_rel <- (city_all$worst_traff_dura - city_all$best_traff_dura)/(city_all$worst_traff_dura)
-  #print('9')
   
   # Relative measure
   city_all$tti <- city_all$worst_traff_dura/city_all$best_traff_dura
@@ -608,9 +628,6 @@ all_for_plt <- function(city_name='',city_best, city_worst){
                               "25000-27500","27500-30000"))
   
   return(city_all)
-  
-  
-  
 }
 
 
@@ -640,5 +657,65 @@ positions <- c("Goteborg", "Amsterdam", "Glasgow", "Lisbon")
 avgs1$city_name <- factor(avgs1$city_name, levels = positions)
 
 
+
+###################################################################
+all_for_tbl <- function(city_name='',city_best, city_worst){
+  
+  print(city_name)
+  
+  city_best_3 <- clean_1st(city_best)
+  city_worst_3 <- clean_1st(city_worst)
+  
+  city_all_worst<- dplyr::select(na.omit(city_worst_3),
+                                 id: distance,
+                                 worst_dura          = min_dur,
+                                 worst_traff_dura    = min_dur_traffic,
+                                 worst_speed         = speed_dur,
+                                 worst_speed_dura    = speed_dur_traffic)
+  #print(head(city_all_best))
+  
+  
+  city_all_best <- dplyr::select(na.omit(city_best_3),
+                                 id: distance,
+                                 best_dura          = min_dur,
+                                 best_traff_dura    = min_dur_traffic,
+                                 best_speed         = speed_dur,
+                                 best_speed_dura    = speed_dur_traffic)
+  print('w nas')
+  print(length(city_all_best$distance))
+  print(length(city_all_worst$distance))
+  
+  print('wo nas')
+  print(length(na.omit(city_all_best)$distance))
+  print(length(na.omit(city_all_worst)$distance))
+  
+  city_all <- merge(city_all_best, city_all_worst, by='id', all = TRUE)
+  print(length(city_all$distance.y))
+  
+  
+  
+  # Worst - Best times
+  city_all$time_diff <- (city_all$worst_traff_dura - city_all$best_traff_dura)
+  
+  #print('7')
+  # Time in mins
+  city_all$time_diff_min <- city_all$time_diff / 60
+  #print('8')
+  # Relative measure
+  city_all$time_diff_rel <- (city_all$worst_traff_dura - city_all$best_traff_dura)/(city_all$worst_traff_dura)
+  #print('9')
+  
+  # Relative measure
+  city_all$tti <- city_all$worst_traff_dura/city_all$best_traff_dura
+  
+  repeat_val<- length(city_all$time_diff_rel)
+  
+  city_all$city_name <- c(rep(city_name, repeat_val))
+  
+  city_all <- city_all[!(city_all$time_diff_rel <= -10),]
+  
+  return(city_all)
+  
+}
 
 
