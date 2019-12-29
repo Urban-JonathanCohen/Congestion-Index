@@ -50,11 +50,7 @@
 \section{Research Aim}
 \indent As mentioned above, traffic congestion is an urban problem that deteriorate the positive benefits of urban life, therefore is imperative to understand the problem in depth and look at it from different angles. Traditional congestion measurements are found to be costly and through practice or research different methods have been explored to overcome this issue. \par
 \indent One avenue of research understands congestion as a time and location specific problem, which occurs in a road segment and that its consequences are suffered from those in the immediate surroundings. A second understanding of the problem deals with the individuals who are affected by traffic. \par
-\indent Focusing on this second interpretation of the problem, the aim of this research is to provide a methodology to spatialize congestion to expose how traffic congestion is distributed across an urban area. The map of congestion can provide useful information to local authorities and planners as
-
-
-
-spatial information about the city and consequently provide and measure how the problem has been evolving over time and space.  \par
+\indent Focusing on this second interpretation of the problem, the aim of this research is to provide a methodology to spatialize congestion to expose how traffic congestion is distributed across an urban area. The map of congestion can provide useful information to local authorities and planners since more disaggregated spatial information will be provided. \par
 
 
 
@@ -89,7 +85,7 @@ spatial information about the city and consequently provide and measure how the 
 
 
 \section{Data}
-\indent In order to run the analysis for a desired urban area, a zoned cartography of the area is needed. In this opportunity, as a proof of concept the 1km2 population grid from the EuroStat was used. Amsterdam, Glasgow, Goteborg and Lisbon were selected and from their historical centre a buffer zone was used to delimit the \textit{city} boundary. The geographic coordinates of the centroid of each 1km2 square was used to create the list of all possible routes. \par
+\indent In order to run the analysis for a desired urban area, a zoned cartography of the area is needed. In this opportunity, as a proof of concept the 1km2 population grid from the EuroStat (GEOSTAT 2011) was used. Amsterdam, Glasgow, Goteborg and Lisbon were selected and from their historical centre a buffer zone was used to delimit the \textit{city} boundary. The geographic coordinates of the centroid of each 1km2 square was used to create the list of all possible routes. \par
 \indent The list of all possible origins to all possible destinations was then used to retrieve data for a \textit{congested} and \textit{non-congested} moments. 
 
 \subsection{Data retrieved}
@@ -151,8 +147,9 @@ After capturing, processing and aggregating the data obtained from the API, tabl
 	\label{tab:Results_grids}
 \end{table}
 
-\indent Although, the table above reveals relevant insights about these cities, local authorities or planners would not know which places or who is being affected by traffic congestion. Therefore, in figure \ref{fig:result_imgs} shows a map for each city with the values of TTI for each zone. 
-
+\indent Although, the table above reveals relevant insights about these cities, local authorities or planners would not know which places or who is being affected by traffic congestion. Therefore, in figure \ref{fig:result_imgs} the TTI for each city was mapped. By looking at these maps several conclusions about where and how bad congestion is across the city. For instance, in all four cities, although the historical centre is the nearest point to all other destinations, when congestion is taken into account, these places face the highest TTI. This indicates that in a \textit{non-congested} situation, the city centre is highly accessible but when \textit{congested}, the advantage of being central gets eroded. \par
+\indent These maps also show that the methodology presented in this study 
+was able to capture differences across cities successfully. In Goteborg, the historical city centre gets mainly congested, meanwhile the other parts of the city remain with similar levels of congestion. In Lisbon, traffic congestion is more scattered accross the city, presenting islands of low congestion (where the CBD and commercial areas have moved to).
 
 
 \begin{figure}[H]
@@ -194,65 +191,65 @@ After capturing, processing and aggregating the data obtained from the API, tabl
 
 
 
-
-
-\begin{figure}[H]
-	\centering	
-	\begin{multicols}{4}
-		\noindent
-		\subfloat[Data Science]{\centering
-			\includegraphics[width=1\linewidth, height=5cm]{./Img/amsterdam_tti}} \par 
-		%
-		\subfloat[New Data Sources]{\centering
-			\includegraphics[width=1\linewidth,height=5cm]{./Img/glasgow_tti}} \par
-		%
-		\subfloat[Data Capture]{\centering
-			\includegraphics[width=1\linewidth,height=5cm]{./Img/lisbon_tti}} \par
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=5cm]{./Img/goteborg_tti}} \newpage
-		%
-		\subfloat[Data Capture]{\centering
-			\includegraphics[width=1\linewidth,height=4cm]{./Img/2_1.PNG}} \par
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/2_2.PNG}} \par
-		%
-		\subfloat[Data Capture]{\centering
-			\includegraphics[width=1\linewidth,height=4cm]{./Img/2_3.PNG}} \par
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/2_4.PNG}} \newpage
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/3_1.PNG}} \par
-		%
-		\subfloat[Data Capture]{\centering
-			\includegraphics[width=1\linewidth,height=4cm]{./Img/3_2.PNG}} \par
-		%
-		\subfloat[Data Capture]{\centering
-			\includegraphics[width=1\linewidth,height=4cm]{./Img/3_3.PNG}} \par
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/3_4.PNG}} \newpage
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_1.PNG}} \par
-		%
-		\subfloat[Data Capture]{\centering
-			\includegraphics[width=1\linewidth,height=4cm]{./Img/4_2.PNG}} \par
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_3.PNG}} \par
-		%
-		\subfloat[Visualization]{\centering
-			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_4.PNG}} \par
-		%	
-	\end{multicols}
-	\caption{Images extracted from results}
-	\label{fig:result_imgs}
-\end{figure}
-
+%
+%
+%\begin{figure}[H]
+%	\centering	
+%	\begin{multicols}{4}
+%		\noindent
+%		\subfloat[Data Science]{\centering
+%			\includegraphics[width=1\linewidth, height=5cm]{./Img/amsterdam_tti}} \par 
+%		%
+%		\subfloat[New Data Sources]{\centering
+%			\includegraphics[width=1\linewidth,height=5cm]{./Img/glasgow_tti}} \par
+%		%
+%		\subfloat[Data Capture]{\centering
+%			\includegraphics[width=1\linewidth,height=5cm]{./Img/lisbon_tti}} \par
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=5cm]{./Img/goteborg_tti}} \newpage
+%		%
+%		\subfloat[Data Capture]{\centering
+%			\includegraphics[width=1\linewidth,height=4cm]{./Img/2_1.PNG}} \par
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/2_2.PNG}} \par
+%		%
+%		\subfloat[Data Capture]{\centering
+%			\includegraphics[width=1\linewidth,height=4cm]{./Img/2_3.PNG}} \par
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/2_4.PNG}} \newpage
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/3_1.PNG}} \par
+%		%
+%		\subfloat[Data Capture]{\centering
+%			\includegraphics[width=1\linewidth,height=4cm]{./Img/3_2.PNG}} \par
+%		%
+%		\subfloat[Data Capture]{\centering
+%			\includegraphics[width=1\linewidth,height=4cm]{./Img/3_3.PNG}} \par
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/3_4.PNG}} \newpage
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_1.PNG}} \par
+%		%
+%		\subfloat[Data Capture]{\centering
+%			\includegraphics[width=1\linewidth,height=4cm]{./Img/4_2.PNG}} \par
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_3.PNG}} \par
+%		%
+%		\subfloat[Visualization]{\centering
+%			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_4.PNG}} \par
+%		%	
+%	\end{multicols}
+%	\caption{Images extracted from results}
+%	\label{fig:result_imgs}
+%\end{figure}
+%
 
 
 

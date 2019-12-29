@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.26)  28 DEC 2019 21:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.26)  29 DEC 2019 14:02
 entering extended mode
 **./congestion_index.tex
 (congestion_index.tex
@@ -566,11 +566,7 @@ s
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lastpage\lastpag
 e.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
-) (congestion_index.aux
-
-LaTeX Warning: Label `fig:result_imgs' multiply defined.
-
-)
+) (congestion_index.aux)
 \openout1 = `congestion_index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 23.
@@ -782,252 +778,36 @@ This may cause the page layout to be inconsistent, however.
 <./Img/amsterdam_tti.png, id=22, 497.86pt x 373.395pt>
 File: ./Img/amsterdam_tti.png Graphic file (type png)
 <use ./Img/amsterdam_tti.png>
-Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 164.
+Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 160.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/glasgow_tti.png, id=24, 497.86pt x 373.395pt>
 File: ./Img/glasgow_tti.png Graphic file (type png)
 <use ./Img/glasgow_tti.png>
-Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 167.
+Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 163.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/goteborg_tti.png, id=25, 497.86pt x 373.395pt>
 File: ./Img/goteborg_tti.png Graphic file (type png)
 <use ./Img/goteborg_tti.png>
-Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 170.
+Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 166.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/lisbon_tti.png, id=26, 497.86pt x 373.395pt>
 File: ./Img/lisbon_tti.png Graphic file (type png)
 <use ./Img/lisbon_tti.png>
-Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 173.
+Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 169.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
-File: ./Img/amsterdam_tti.png Graphic file (type png)
-<use ./Img/amsterdam_tti.png>
-Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 204.
-(pdftex.def)             Requested size: 106.30852pt x 142.26192pt.
-File: ./Img/glasgow_tti.png Graphic file (type png)
-<use ./Img/glasgow_tti.png>
-Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 207.
-(pdftex.def)             Requested size: 106.30852pt x 142.26192pt.
-File: ./Img/lisbon_tti.png Graphic file (type png)
-<use ./Img/lisbon_tti.png>
-Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 210.
-(pdftex.def)             Requested size: 106.30852pt x 142.26192pt.
-File: ./Img/goteborg_tti.png Graphic file (type png)
-<use ./Img/goteborg_tti.png>
-Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 213.
-(pdftex.def)             Requested size: 106.30852pt x 142.26192pt.
-
-
-LaTeX Warning: File `./Img/2_1.PNG' not found on input line 216.
-
-
-! Package pdftex.def Error: File `./Img/2_1.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 ...h=1\linewidth,height=4cm]{./Img/2_1.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/2_2.PNG' not found on input line 219.
-
-
-! Package pdftex.def Error: File `./Img/2_2.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.219 ...=1\linewidth, height=4cm]{./Img/2_2.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/2_3.PNG' not found on input line 222.
-
-
-! Package pdftex.def Error: File `./Img/2_3.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.222 ...h=1\linewidth,height=4cm]{./Img/2_3.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/2_4.PNG' not found on input line 225.
-
-
-! Package pdftex.def Error: File `./Img/2_4.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.225 ...=1\linewidth, height=4cm]{./Img/2_4.PNG}}
-                                                   \newpage
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/3_1.PNG' not found on input line 228.
-
-
-! Package pdftex.def Error: File `./Img/3_1.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.228 ...=1\linewidth, height=4cm]{./Img/3_1.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/3_2.PNG' not found on input line 231.
-
-
-! Package pdftex.def Error: File `./Img/3_2.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.231 ...h=1\linewidth,height=4cm]{./Img/3_2.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/3_3.PNG' not found on input line 234.
-
-
-! Package pdftex.def Error: File `./Img/3_3.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.234 ...h=1\linewidth,height=4cm]{./Img/3_3.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/3_4.PNG' not found on input line 237.
-
-
-! Package pdftex.def Error: File `./Img/3_4.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.237 ...=1\linewidth, height=4cm]{./Img/3_4.PNG}}
-                                                   \newpage
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/4_1.PNG' not found on input line 240.
-
-
-! Package pdftex.def Error: File `./Img/4_1.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.240 ...=1\linewidth, height=4cm]{./Img/4_1.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/4_2.PNG' not found on input line 243.
-
-
-! Package pdftex.def Error: File `./Img/4_2.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.243 ...h=1\linewidth,height=4cm]{./Img/4_2.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/4_3.PNG' not found on input line 246.
-
-
-! Package pdftex.def Error: File `./Img/4_3.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.246 ...=1\linewidth, height=4cm]{./Img/4_3.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: File `./Img/4_4.PNG' not found on input line 249.
-
-
-! Package pdftex.def Error: File `./Img/4_4.PNG' not found: using draft setting
-.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 ...=1\linewidth, height=4cm]{./Img/4_4.PNG}}
-                                                   \par
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[4 <./Img/amsterdam_tti.png> <./Img/glasgow_tti.png> <./Img/goteborg_tti.png> <
-./Img/lisbon_tti.png>]
-Overfull \vbox (96.63434pt too high) has occurred while \output is active []
-
-
-[5] 
+ 
 AED: lastpage setting LastPage
-(congestion_index.aux)
+[4 <./Img/amsterdam_tti.png> <./Img/glasgow_tti.png> <./Img/goteborg_tti.png> <
+./Img/lisbon_tti.png>] [5] (congestion_index.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.78749pt have occurred.
 
-
-LaTeX Warning: There were multiply-defined labels.
-
  ) 
 Here is how much of TeX's memory you used:
- 17741 strings out of 492895
- 350209 string characters out of 3122800
- 407182 words of memory out of 3000000
+ 17728 strings out of 492895
+ 350169 string characters out of 3122800
+ 395143 words of memory out of 3000000
  21498 multiletter control sequences out of 15000+200000
  540252 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1044,12 +824,10 @@ amsfonts/cm/cmr9.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/edgardo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/edgardo/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/edga
-rdo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt10.pfb
-><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
-s/cm/cmtt9.pfb>
-Output written on congestion_index.pdf (5 pages, 2001265 bytes).
+rdo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on congestion_index.pdf (5 pages, 1988263 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
