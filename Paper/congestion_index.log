@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.26)  29 DEC 2019 14:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.26)  29 DEC 2019 15:26
 entering extended mode
 **./congestion_index.tex
 (congestion_index.tex
@@ -770,7 +770,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/Users/edgardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 
 Package Fancyhdr Warning: \footskip is too small (0.0pt): 
-Make it at least 3.90004pt.
+Make it at least 13.0pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
@@ -778,27 +778,27 @@ This may cause the page layout to be inconsistent, however.
 <./Img/amsterdam_tti.png, id=22, 497.86pt x 373.395pt>
 File: ./Img/amsterdam_tti.png Graphic file (type png)
 <use ./Img/amsterdam_tti.png>
-Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 160.
+Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 161.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/glasgow_tti.png, id=24, 497.86pt x 373.395pt>
 File: ./Img/glasgow_tti.png Graphic file (type png)
 <use ./Img/glasgow_tti.png>
-Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 163.
+Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 164.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/goteborg_tti.png, id=25, 497.86pt x 373.395pt>
 File: ./Img/goteborg_tti.png Graphic file (type png)
 <use ./Img/goteborg_tti.png>
-Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 166.
+Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 167.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/lisbon_tti.png, id=26, 497.86pt x 373.395pt>
 File: ./Img/lisbon_tti.png Graphic file (type png)
 <use ./Img/lisbon_tti.png>
-Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 169.
+Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 170.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
- 
+ [4] 
 AED: lastpage setting LastPage
-[4 <./Img/amsterdam_tti.png> <./Img/glasgow_tti.png> <./Img/goteborg_tti.png> <
-./Img/lisbon_tti.png>] [5] (congestion_index.aux)
+[5 <./Img/amsterdam_tti.png> <./Img/glasgow_tti.png> <./Img/goteborg_tti.png> <
+./Img/lisbon_tti.png>] (congestion_index.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.78749pt have occurred.
@@ -807,7 +807,7 @@ LaTeX Font Warning: Size substitutions with differences
 Here is how much of TeX's memory you used:
  17728 strings out of 492895
  350169 string characters out of 3122800
- 395143 words of memory out of 3000000
+ 396172 words of memory out of 3000000
  21498 multiletter control sequences out of 15000+200000
  540252 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -825,7 +825,7 @@ type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/edgardo/AppData/Local/Programs/Mi
 KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/edgardo/AppData/Lo
 cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/edga
 rdo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on congestion_index.pdf (5 pages, 1988263 bytes).
+Output written on congestion_index.pdf (5 pages, 1989128 bytes).
 PDF statistics:
  71 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
