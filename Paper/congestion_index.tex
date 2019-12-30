@@ -155,8 +155,7 @@ The process generates information for a total n*(n-1) routes (n being the number
 	\label{tab:Results_routes}
 \end{table}
 
-\indent The amount of route information retrieved is consistent with the amount of zones in the city and as expected, the \textit{congested} situation on average takes longer time. Formally an 
-independent-samples t-test was conducted to compare the travel times under a \textit{congested} and \textit{non-congested} situations. For each city, the time difference was found statistically significant with a confidence level of 99\%.
+\indent The amount of route information retrieved is consistent with the amount of zones in the city and as expected, the \textit{congested} situation on average takes longer time. Formally an independent-samples t-test was conducted to compare the travel times under a \textit{congested} and \textit{non-congested} situations. For each city, the time difference was found statistically significant with a confidence level of 99\%.
 
 
 \section{Results}
@@ -247,21 +246,36 @@ was able to capture differences across cities successfully. In Goteborg, the his
 \indent 
 
 \subsection{Scalability}
-granularity
+address the generality of the method with global coverage
+granularity (the choice of grid size? or the use of different spatial entities like census track or travel zones)
 area covered
+
+can use other APIs, like here, waze, tomtom
+processing time. give rough examples
+
+\subsection{Limitations and future work}
+\indent Costs of operation of the method.
+give details of the specific ones
+will vary with the granularity and the coverage
+will vary with the data source
+
 
 \subsection{Applications}
 \indent As shown \cite{Lomax1997} Traffic congestion measurements can be used  
-
-
-
 
 
 \subsection{Limitations and future work}
 \indent Grid size and costs
 In this case 
 
+
 \indent Weights
+using population
+using an OD matrix
+
+1km grid size can be too coarse for spatial planning, has impact o
+
+\indent use census tracks or population statistics to correlate with socio-demographics
 
 \indent use census tracks or population statistics to correlate with socio-demographics 
 
