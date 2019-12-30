@@ -3,6 +3,7 @@
 \usepackage{booktabs}
 \usepackage{siunitx}
 \usepackage{enumitem}
+\usepackage[options]{biblatex}
 
 \usepackage{subfig,multicol}
 \usepackage[export]{adjustbox}
@@ -19,6 +20,12 @@
 
 
 \rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
+
+
+\addbibresource{Congested.bib}
+\nocite{*}
+
+
 
 \begin{document}
 \title{Towards a city congestion index: methodological explorations using Google's Distance Matrix API}
@@ -51,8 +58,34 @@ The components of a broader understanding of the phenomenon: a person travelling
 \indent What congestion indices exist out there? \par
 How it is measured (absolute and relative indices)
 \indent Practice/literature\par
+
+
 \indent How are others mapping congestion (or real travel time) with geodata? (edited) \par
 The focus on the link (flow and speed), the focus on visualisation.
+
+
+
+
+
+\indent As the list of traffic congestion indicators
+As the list of 
+At the same time new methodologies to measure traffic congestion were developed, researchers 
+
+
+At the same time different 
+
+some researcher were 
+
+For instance in Lomax (1993) 
+
+In parallel, as the list of traffic congestion measurements increased 
+
+
+
+
+
+
+
 
 \section{Research Aim}
 \indent As mentioned above, traffic congestion is an urban problem that deteriorate the positive benefits of urban life, therefore is imperative to understand the problem in depth and look at it from different angles. Traditional congestion measurements are found to be costly and through practice or research different methods have been explored to overcome this issue. \par
@@ -154,7 +187,7 @@ After capturing, processing and aggregating the data obtained from the API, tabl
 	\label{tab:Results_grids}
 \end{table}
 
-\indent Although, the table above reveals relevant insights about these cities, local authorities or planners would not know which places or who is being affected by traffic congestion. Therefore, in figure \ref{fig:result_imgs} the TTI for each city was mapped. By looking at these maps several conclusions about where and how bad congestion is across the city. For instance, in all four cities, although the historical centre is the nearest point to all other destinations, when congestion is taken into account, these places face the highest TTI. This indicates that in a \textit{non-congested} situation, the city centre is highly accessible but when \textit{congested}, the advantage of being central gets eroded. \par
+\indent Although, the table above reveals relevant insights about these cities, local authorities or planners would not know which places or who is being affected by traffic congestion. Therefore, in figure \ref{fig:result_tti} the TTI for each city was mapped. By looking at these maps several conclusions about where and how bad congestion is across the city. For instance, in all four cities, although the historical centre is the nearest point to all other destinations, when congestion is taken into account, these places face the highest TTI. This indicates that in a \textit{non-congested} situation, the city centre is highly accessible but when \textit{congested}, the advantage of being central gets eroded. \par
 \indent These maps also show that the methodology presented in this study 
 was able to capture differences across cities successfully. In Goteborg, the historical city centre gets mainly congested, meanwhile the other parts of the city remain with similar levels of congestion. In Lisbon, traffic congestion is more scattered accross the city, presenting islands of low congestion (where the CBD and commercial areas have moved to).
 
@@ -178,28 +211,84 @@ was able to capture differences across cities successfully. In Goteborg, the his
 		%	
 	\end{multicols}
 	\caption{Images extracted from results}
-	\label{fig:result_imgs}
+	\label{fig:result_tti}
 \end{figure}
 
 
-\section{Discussion}
-\indent The methodology and results presented in this research 
+\begin{figure}[H]
+	\centering
+	\begin{multicols}{2}
+		\noindent
+		%
+		\subfloat[Amsterdam]{\centering
+			\includegraphics[width=0.8\linewidth, height=4cm]{./Img/amsterdam_time_diff_min}} \par 
+		%
+		\subfloat[Glasgow]{\centering
+			\includegraphics[width=0.8\linewidth,height=4cm]{./Img/glasgow_time_diff_min}} \newpage
+		%
+		\subfloat[Goteborg]{\centering
+			\includegraphics[width=0.8\linewidth,height=4cm]{./Img/goteborg_time_diff_min}} \par
+		%
+		\subfloat[Lisbon]{\centering
+			\includegraphics[width=0.8\linewidth, height=4cm]{./Img/lisbon_time_diff_min}} \par
+		%	
+	\end{multicols}
+	\caption{Images extracted from results}
+	\label{fig:result_diff}
+\end{figure}
 
-\indent After aggregating the data retrieved at the city level, the results are consistent with the reports from INRIX and HERE 
+
+
+\section{Discussion}
+\indent The methodology presented in this paper exploits a new data source to provide spatial insights about traffic congestion in different cities. The information generated allows planning and transport agencies to reconstruct some of the most popular indexes discussed in the literature review. \par 
+\indent After aggregating the data retrieved from the Google API at the city level, the results were found to be consistent with the conclusion drawn by INRIX and TomTom.\par
+
+\subsection{Grid size and shape}
+\indent 
 
 \subsection{Scalability}
 granularity
 area covered
 
+\subsection{Applications}
+\indent As shown \cite{Lomax1997} Traffic congestion measurements can be used  
+
+
+
 
 
 \subsection{Limitations and future work}
-\indent Costs
+\indent Grid size and costs
+In this case 
 
 \indent Weights
 
 \indent use census tracks or population statistics to correlate with socio-demographics 
+
+\indent Reviewer Remarks:This is a very interesting paper proposal. It will be interesting to learn how the impact of different types of car engines (petrol, diesel, electric, etc) will impact CO2 emissions in congested and non-congested traffic flows.
+
+
 \section{Conclusion}
+
+
+
+
+
+\section*{References}
+
+
+
+
+
+
+\printbibliography
+
+
+
+
+
+\end{document}
+
 
 
 
@@ -266,14 +355,5 @@ area covered
 %
 
 
-
-
-
-
-
-
-
-
-\end{document}
 
 
