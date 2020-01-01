@@ -44,6 +44,7 @@
 
 
 \section{Introduction}
+<<<<<<< HEAD
 \indent Although United Nations (UN) has not identified  efficient, clean and equitable mobility as one the 18 Sustainable Development Goals (SDGs), transportation indicators are present within several Goals. Sustainable transport systems are acknowledged to be necessary pre-conditions to enhance socio-economic opportunities, diminish environmental costs and improve road safety conditions. \par
 \indent Within cities over 60\% of the total wealth is produced and the positive externalities of living in urban areas has been extensible registered. However, as the population density increases a set of negative externalities such as pollution, crime or congestion erode the benefits of urban life. \par
 \indent The definition of congestion in transportation facilities has evolved over the years (XXXXXXX) and there is no universal accepted definition for the problem. \par 
@@ -71,10 +72,24 @@
 \indent What congestion indices exist out there? 
 
 
+=======
+\indent What are the problems with congestion? Is it mentioned in UN Habitat NUA, or SDGs e.g.11?\par
+the goals of dealing with congestion (especially in the SDG). the negative consequences of congestion on the environment and people. Use some references.
+\indent What are the clients of this index? Who needs such an index, and to do what?\par
+The importance of planning to avoid congestion, how transport plannign focuses on flows and capacity of the infrastructure, but given what we know on iduced demand (ref) this is not always a viable solution. the need for spatial planning, therefore for a spatial understanding of the problem to mitigate.
+
+\section{Theoretical background}
+how is congestion defined. by one or two authors only.
+The components of congestion: the route between OD pair, the distance and travel time (consequently, the speed of travel), the capacity of the route. inherently a travel time difference problem.
+The components of a broader understanding of the phenomenon: a person travelling with a purpose, a date and time of day, two locations (origin and destination). This brings it closer to definitions of accessibility, but measuring the convenience of travel (refs on this?)
+\indent What congestion indices exist out there? \par
+How it is measured (absolute and relative indices)
+>>>>>>> a3b8b9673d8a94d6ef376797a298ff04a44fbb5d
 \indent Practice/literature\par
 
 
 \indent How are others mapping congestion (or real travel time) with geodata? (edited) \par
+The focus on the link (flow and speed), the focus on visualisation.
 
 
 
@@ -163,8 +178,7 @@ The process generates information for a total n*(n-1) routes (n being the number
 	\label{tab:Results_routes}
 \end{table}
 
-\indent The amount of route information retrieved is consistent with the amount of zones in the city and as expected, the \textit{congested} situation on average takes longer time. Formally an 
-independent-samples t-test was conducted to compare the travel times under a \textit{congested} and \textit{non-congested} situations. For each city, the time difference was found statistically significant with a confidence level of 99\%.
+\indent The amount of route information retrieved is consistent with the amount of zones in the city and as expected, the \textit{congested} situation on average takes longer time. Formally an independent-samples t-test was conducted to compare the travel times under a \textit{congested} and \textit{non-congested} situations. For each city, the time difference was found statistically significant with a confidence level of 99\%.
 
 
 \section{Results}
@@ -255,22 +269,44 @@ was able to capture differences across cities successfully. In Goteborg, the his
 \indent 
 
 \subsection{Scalability}
-granularity
+address the generality of the method with global coverage
+granularity (the choice of grid size? or the use of different spatial entities like census track or travel zones)
 area covered
 
+<<<<<<< HEAD
 \subsection{Applications}
 \indent As shown
  1.\cite{Lomax1997} \par
  2.\parencite{Lomax1997} \par 
  3.\textcite{Lomax1997} \par
+=======
+can use other APIs, like here, waze, tomtom
+processing time. give rough examples
 
+\subsection{Limitations and future work}
+\indent Costs of operation of the method.
+give details of the specific ones
+will vary with the granularity and the coverage
+will vary with the data source
+
+>>>>>>> a3b8b9673d8a94d6ef376797a298ff04a44fbb5d
+
+\subsection{Applications}
+\indent As shown \cite{Lomax1997} Traffic congestion measurements can be used  
 
 
 \subsection{Limitations and future work}
 \indent Grid size and costs
 In this case 
 
+
 \indent Weights
+using population
+using an OD matrix
+
+1km grid size can be too coarse for spatial planning, has impact o
+
+\indent use census tracks or population statistics to correlate with socio-demographics
 
 \indent use census tracks or population statistics to correlate with socio-demographics 
 
@@ -283,6 +319,15 @@ In this case
 
 
 
+<<<<<<< HEAD
+=======
+%\section*{References}
+
+
+
+
+
+>>>>>>> a3b8b9673d8a94d6ef376797a298ff04a44fbb5d
 
 \printbibliography
 
