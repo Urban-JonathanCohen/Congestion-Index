@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7140 64-bit) (preloaded format=pdflatex 2019.11.26)  30 DEC 2019 11:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7250 64-bit) (preloaded format=pdflatex 2019.12.31)  1 JAN 2020 12:09
 entering extended mode
 **./congestion_index.tex
 (congestion_index.tex
-LaTeX2e <2018-12-01>
+LaTeX2e <2019-10-01> patch level 3
 (jpconf.cls
 Document Class: jpconf 2007/03/07 v1.1 LaTeX class for Journal of Physics: Conf
 erence Series
@@ -35,7 +35,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 )
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\graphic
 s.sty"
-Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2019/11/01 v1.3d Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics\trig.st
 y"
@@ -45,7 +45,7 @@ Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 phics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 99.
+Package graphics Info: Driver file: pdftex.def on input line 105.
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/graphics-def\pdf
 tex.def"
@@ -266,7 +266,7 @@ File: amsgen.sty 1999/11/30 v2.0 generic functions
 \ex@=\dimen151
 ))
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\array.sty"
-Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen152
 \ar@mcellbox=\box46
 \extrarowheight=\dimen153
@@ -338,58 +338,77 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enit@count@id=\count268
 \enitdp@description=\count269
 )
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblate
-x.sty"
-Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
+y"
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquote
+s.sty"
+Package: csquotes 2019-12-06 v5.2j context-sensitive quotations (JAW)
 
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\pdfte
-xcmds.sty"
-Package: pdftexcmds 2019/07/25 v0.30 Utility functions of pdfTeX for LuaTeX (HO
-)
-
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\infwa
-rerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\iflua
-tex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ltxcm
-ds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\ifpdf
-.sty"
-Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/etoolbox\etoolbo
 x.sty"
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count270
 )
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\kvoptio
-ns.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+\csq@reset=\count271
+\csq@gtype=\count272
+\csq@glevel=\count273
+\csq@qlevel=\count274
+\csq@maxlvl=\count275
+\csq@tshold=\count276
+\csq@ltx@everypar=\toks20
 
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvset
-keys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquote
+s.def"
+File: csquotes.def 2019-12-06 v5.2j csquotes generic definitions (JAW)
+)
+Package csquotes Info: Trying to load configuration file 'csquotes.cfg'...
+Package csquotes Info: ... configuration file loaded successfully.
 
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\etexc
-mds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-)))
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/csquotes\csquote
+s.cfg"
+File: csquotes.cfg 
+))
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblate
+x.sty"
+Package: biblatex 2019/12/01 v3.14 programmable bibliographies (PK/MW)
+
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/pdftexcmds\pdfte
+xcmds.sty"
+Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/infwarerr\infw
+arerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/iftex\iftex.st
+y"
+Package: iftex 2019/11/07 v1.0c TeX engine tests
+)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/ltxcmds\ltxcmd
+s.sty"
+Package: ltxcmds 2019/12/15 v1.24 LaTeX kernel commands for general use (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/kvoptions\kvopti
+ons.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/kvsetkeys\kvse
+tkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+))
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.st
 y"
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count271
+\lrq@indent=\count277
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/logreq\logreq.de
 f"
@@ -401,47 +420,47 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count272
-\c@listtotal=\count273
-\c@listcount=\count274
-\c@liststart=\count275
-\c@liststop=\count276
-\c@citecount=\count277
-\c@citetotal=\count278
-\c@multicitecount=\count279
-\c@multicitetotal=\count280
-\c@instcount=\count281
-\c@maxnames=\count282
-\c@minnames=\count283
-\c@maxitems=\count284
-\c@minitems=\count285
-\c@citecounter=\count286
-\c@maxcitecounter=\count287
-\c@savedcitecounter=\count288
-\c@uniquelist=\count289
-\c@uniquename=\count290
-\c@refsection=\count291
-\c@refsegment=\count292
-\c@maxextratitle=\count293
-\c@maxextratitleyear=\count294
-\c@maxextraname=\count295
-\c@maxextradate=\count296
-\c@maxextraalpha=\count297
-\c@abbrvpenalty=\count298
-\c@highnamepenalty=\count299
-\c@lownamepenalty=\count300
-\c@maxparens=\count301
-\c@parenlevel=\count302
-\blx@tempcnta=\count303
-\blx@tempcntb=\count304
-\blx@tempcntc=\count305
-\blx@maxsection=\count306
-\blx@maxsegment@0=\count307
-\blx@notetype=\count308
-\blx@parenlevel@text=\count309
-\blx@parenlevel@foot=\count310
-\blx@sectionciteorder@0=\count311
-\blx@entrysetcounter=\count312
+\c@tabx@nest=\count278
+\c@listtotal=\count279
+\c@listcount=\count280
+\c@liststart=\count281
+\c@liststop=\count282
+\c@citecount=\count283
+\c@citetotal=\count284
+\c@multicitecount=\count285
+\c@multicitetotal=\count286
+\c@instcount=\count287
+\c@maxnames=\count288
+\c@minnames=\count289
+\c@maxitems=\count290
+\c@minitems=\count291
+\c@citecounter=\count292
+\c@maxcitecounter=\count293
+\c@savedcitecounter=\count294
+\c@uniquelist=\count295
+\c@uniquename=\count296
+\c@refsection=\count297
+\c@refsegment=\count298
+\c@maxextratitle=\count299
+\c@maxextratitleyear=\count300
+\c@maxextraname=\count301
+\c@maxextradate=\count302
+\c@maxextraalpha=\count303
+\c@abbrvpenalty=\count304
+\c@highnamepenalty=\count305
+\c@lownamepenalty=\count306
+\c@maxparens=\count307
+\c@parenlevel=\count308
+\blx@tempcnta=\count309
+\blx@tempcntb=\count310
+\blx@tempcntc=\count311
+\blx@maxsection=\count312
+\blx@maxsegment@0=\count313
+\blx@notetype=\count314
+\blx@parenlevel@text=\count315
+\blx@parenlevel@foot=\count316
+\blx@sectionciteorder@0=\count317
+\blx@entrysetcounter=\count318
 \labelnumberwidth=\skip57
 \labelalphawidth=\skip58
 \biblabelsep=\skip59
@@ -453,9 +472,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language82
-\c@mincomprange=\count313
-\c@maxcomprange=\count314
-\c@mincompwidth=\count315
+\c@mincomprange=\count319
+\c@maxcomprange=\count320
+\c@mincompwidth=\count321
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -463,76 +482,78 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 def"
 File: blx-dm.def 2019/12/01 v3.14 biblatex localization (PK/MW)
 )
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count316
-\c@savedafterword=\count317
-\c@annotator=\count318
-\c@savedannotator=\count319
-\c@author=\count320
-\c@savedauthor=\count321
-\c@bookauthor=\count322
-\c@savedbookauthor=\count323
-\c@commentator=\count324
-\c@savedcommentator=\count325
-\c@editor=\count326
-\c@savededitor=\count327
-\c@editora=\count328
-\c@savededitora=\count329
-\c@editorb=\count330
-\c@savededitorb=\count331
-\c@editorc=\count332
-\c@savededitorc=\count333
-\c@foreword=\count334
-\c@savedforeword=\count335
-\c@holder=\count336
-\c@savedholder=\count337
-\c@introduction=\count338
-\c@savedintroduction=\count339
-\c@namea=\count340
-\c@savednamea=\count341
-\c@nameb=\count342
-\c@savednameb=\count343
-\c@namec=\count344
-\c@savednamec=\count345
-\c@translator=\count346
-\c@savedtranslator=\count347
-\c@shortauthor=\count348
-\c@savedshortauthor=\count349
-\c@shorteditor=\count350
-\c@savedshorteditor=\count351
-\c@labelname=\count352
-\c@savedlabelname=\count353
-\c@institution=\count354
-\c@savedinstitution=\count355
-\c@lista=\count356
-\c@savedlista=\count357
-\c@listb=\count358
-\c@savedlistb=\count359
-\c@listc=\count360
-\c@savedlistc=\count361
-\c@listd=\count362
-\c@savedlistd=\count363
-\c@liste=\count364
-\c@savedliste=\count365
-\c@listf=\count366
-\c@savedlistf=\count367
-\c@location=\count368
-\c@savedlocation=\count369
-\c@organization=\count370
-\c@savedorganization=\count371
-\c@origlocation=\count372
-\c@savedoriglocation=\count373
-\c@origpublisher=\count374
-\c@savedorigpublisher=\count375
-\c@publisher=\count376
-\c@savedpublisher=\count377
-\c@language=\count378
-\c@savedlanguage=\count379
-\c@origlanguage=\count380
-\c@savedoriglanguage=\count381
-\c@pageref=\count382
-\c@savedpageref=\count383
+\c@afterword=\count322
+\c@savedafterword=\count323
+\c@annotator=\count324
+\c@savedannotator=\count325
+\c@author=\count326
+\c@savedauthor=\count327
+\c@bookauthor=\count328
+\c@savedbookauthor=\count329
+\c@commentator=\count330
+\c@savedcommentator=\count331
+\c@editor=\count332
+\c@savededitor=\count333
+\c@editora=\count334
+\c@savededitora=\count335
+\c@editorb=\count336
+\c@savededitorb=\count337
+\c@editorc=\count338
+\c@savededitorc=\count339
+\c@foreword=\count340
+\c@savedforeword=\count341
+\c@holder=\count342
+\c@savedholder=\count343
+\c@introduction=\count344
+\c@savedintroduction=\count345
+\c@namea=\count346
+\c@savednamea=\count347
+\c@nameb=\count348
+\c@savednameb=\count349
+\c@namec=\count350
+\c@savednamec=\count351
+\c@translator=\count352
+\c@savedtranslator=\count353
+\c@shortauthor=\count354
+\c@savedshortauthor=\count355
+\c@shorteditor=\count356
+\c@savedshorteditor=\count357
+\c@labelname=\count358
+\c@savedlabelname=\count359
+\c@institution=\count360
+\c@savedinstitution=\count361
+\c@lista=\count362
+\c@savedlista=\count363
+\c@listb=\count364
+\c@savedlistb=\count365
+\c@listc=\count366
+\c@savedlistc=\count367
+\c@listd=\count368
+\c@savedlistd=\count369
+\c@liste=\count370
+\c@savedliste=\count371
+\c@listf=\count372
+\c@savedlistf=\count373
+\c@location=\count374
+\c@savedlocation=\count375
+\c@organization=\count376
+\c@savedorganization=\count377
+\c@origlocation=\count378
+\c@savedoriglocation=\count379
+\c@origpublisher=\count380
+\c@savedorigpublisher=\count381
+\c@publisher=\count382
+\c@savedpublisher=\count383
+\c@language=\count384
+\c@savedlanguage=\count385
+\c@origlanguage=\count386
+\c@savedoriglanguage=\count387
+\c@pageref=\count388
+\c@savedpageref=\count389
 \shorthandwidth=\skip65
 \shortjournalwidth=\skip66
 \shortserieswidth=\skip67
@@ -560,52 +581,48 @@ Package biblatex Info: ... file 'biblatex.def' found.
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblate
 x.def"
 File: biblatex.def 2019/12/01 v3.14 biblatex compatibility (PK/MW)
-\c@textcitecount=\count384
-\c@textcitetotal=\count385
-\c@textcitemaxnames=\count386
-\c@biburlbigbreakpenalty=\count387
-\c@biburlbreakpenalty=\count388
-\c@biburlnumpenalty=\count389
-\c@biburlucpenalty=\count390
-\c@biburllcpenalty=\count391
+\c@textcitecount=\count390
+\c@textcitetotal=\count391
+\c@textcitemaxnames=\count392
+\c@biburlbigbreakpenalty=\count393
+\c@biburlbreakpenalty=\count394
+\c@biburlnumpenalty=\count395
+\c@biburlucpenalty=\count396
+\c@biburllcpenalty=\count397
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count392
+\c@smartand=\count398
 )
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
 
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\num
-eric.bbx"
-File: numeric.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\aut
+horyear.bbx"
+File: authoryear.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/bbx\sta
 ndard.bbx"
 File: standard.bbx 2019/12/01 v3.14 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count393
-\c@bbx:relatedtotal=\count394
+\c@bbx:relatedcount=\count399
+\c@bbx:relatedtotal=\count400
 ))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
 
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\num
-eric.cbx"
-File: numeric.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex/cbx\aut
+horyear.cbx"
+File: authoryear.cbx 2019/12/01 v3.14 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
 Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -613,20 +630,7 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/biblatex\biblate
 x.cfg"
 File: biblatex.cfg 
-)
-
-! Package keyval Error: options undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.15152 \blx@processoptions
-                           
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-)
+))
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/subfig\subfig.st
 y"
 Package: subfig 2005/06/28 ver: 1.3 subfig package
@@ -658,34 +662,34 @@ Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count395
-\c@continuedfloat=\count396
+\c@caption@flags=\count401
+\c@continuedfloat=\count402
 )
-\c@KVtest=\count397
+\c@KVtest=\count403
 \sf@farskip=\skip79
 \sf@captopadj=\dimen174
 \sf@capskip=\skip80
 \sf@nearskip=\skip81
-\c@subfigure=\count398
-\c@subfigure@save=\count399
-\c@lofdepth=\count400
-\c@subtable=\count401
-\c@subtable@save=\count402
-\c@lotdepth=\count403
+\c@subfigure=\count404
+\c@subfigure@save=\count405
+\c@lofdepth=\count406
+\c@subtable=\count407
+\c@subtable@save=\count408
+\c@lotdepth=\count409
 \sf@top=\skip82
 \sf@bottom=\skip83
 )
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\multicol.s
 ty"
-Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
-\c@tracingmulticols=\count404
+Package: multicol 2019/03/01 v1.8w multicolumn formatting (FMi)
+\c@tracingmulticols=\count410
 \mult@box=\box56
 \multicol@leftmargin=\dimen175
-\c@unbalance=\count405
-\c@collectmore=\count406
-\doublecol@number=\count407
-\multicoltolerance=\count408
-\multicolpretolerance=\count409
+\c@unbalance=\count411
+\c@collectmore=\count412
+\doublecol@number=\count413
+\multicoltolerance=\count414
+\multicolpretolerance=\count415
 \full@width=\dimen176
 \page@free=\dimen177
 \premulticols=\dimen178
@@ -716,14 +720,15 @@ Package: multicol 2018/12/27 v1.8v multicolumn formatting (FMi)
 \@tempa=\box77
 \@tempa=\box78
 \@tempa=\box79
-\c@columnbadness=\count410
-\c@finalcolumnbadness=\count411
+\c@minrows=\count416
+\c@columnbadness=\count417
+\c@finalcolumnbadness=\count418
 \last@try=\dimen181
 \multicolovershoot=\dimen182
 \multicolundershoot=\dimen183
 \mult@nat@firstbox=\box80
 \colbreak@box=\box81
-\mc@col@check@num=\count412
+\mc@col@check@num=\count419
 )
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjust
 box.sty"
@@ -737,10 +742,10 @@ Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 l.tex"
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/xkeyval\xkvuti
 ls.tex"
-\XKV@toks=\toks18
-\XKV@tempa@toks=\toks19
+\XKV@toks=\toks21
+\XKV@tempa@toks=\toks22
 )
-\XKV@depth=\count413
+\XKV@depth=\count420
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/adjustbox\adjcal
@@ -779,37 +784,31 @@ File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ifoddpage\ifoddp
 age.sty"
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count414
+\c@checkoddpage=\count421
 )
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/varwidth\varwidt
 h.sty"
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@box=\box83
-\sift@deathcycles=\count415
+\sift@deathcycles=\count422
 \@vwid@loff=\dimen196
 \@vwid@roff=\dimen197
 ))
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/float\float.sty"
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count416
-\float@exts=\toks20
+\c@float@type=\count423
+\float@exts=\toks23
 \float@box=\box84
-\@float@everytoks=\toks21
+\@float@everytoks=\toks24
 \@floatcapt=\box85
-)
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\inputenc.st
-y"
-Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks22
-\inpenc@posthook=\toks23
 )
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.st
 y"
-Package: babel 2019/07/19 3.33 The Babel package
+Package: babel 2019/12/08 3.37 The Babel package
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\switch.d
 ef"
-File: switch.def 2019/07/19 3.33 Babel switching mechanism
+File: switch.def 2019/12/08 3.37 Babel switching mechanism
 )
 *************************************
 * Local config file bblopts.cfg used
@@ -826,17 +825,20 @@ Language: english 2017/06/06 v3.3r English support from the babel system
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\babel.de
 f"
-File: babel.def 2019/07/19 3.33 Babel common definitions
-\babel@savecnt=\count417
+File: babel.def 2019/12/08 3.37 Babel common definitions
+\babel@savecnt=\count424
 \U@D=\dimen198
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/babel\txtbabel
 .def")
-\bbl@dirlevel=\count418
+\bbl@dirlevel=\count425
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
+Package babel Info: \l@canadian = using hyphenrules for english
+(babel)             (\language0) on input line 102.
+Package babel Info: \l@australian = using hyphenrules for ukenglish
+(babel)             (\language76) on input line 105.
+Package babel Info: \l@newzealand = using hyphenrules for ukenglish
+(babel)             (\language76) on input line 108.
 ))
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fancyhdr\fancyhd
 r.sty"
@@ -856,67 +858,52 @@ s
 e.sty"
 Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
 )
-
-Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
-(biblatex)                Loading 'csquotes' recommended.
-
-\@quotelevel=\count419
-\@quotereset=\count420
-(congestion_index.aux)
+Package csquotes Info: Checking for multilingual support...
+Package csquotes Info: ... found 'babel' package.
+Package csquotes Info: Adjusting default style.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
+ (congestion_index.aux)
 \openout1 = `congestion_index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
+LaTeX Font Info:    ... okay on input line 29.
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\supp
 -pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count421
+\scratchcounter=\count426
 \scratchdimen=\dimen199
 \scratchbox=\box86
-\nofMPsegments=\count422
-\nofMParguments=\count423
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count424
+\nofMPsegments=\count427
+\nofMParguments=\count428
+\everyMPshowfont=\toks25
+\MPscratchCnt=\count429
 \MPscratchDim=\dimen256
-\MPnumerator=\count425
-\makeMPintoPDFobject=\count426
-\everyMPtoPDFconversion=\toks25
+\MPnumerator=\count430
+\makeMPintoPDFobject=\count431
+\everyMPtoPDFconversion=\toks26
 )
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstopd
-f-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\grfext.
-sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/generic/oberdiek\kvdef
-inekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
+("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/epstopdf-pkg\eps
+topdf-base.sty"
+Package: epstopdf-base 2019-12-09 v2.10 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
+85.
 )
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ts1enc.dfu"
-File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+File: ts1enc.dfu 2019/07/11 v1.2j UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00A4 (decimal 164)
@@ -986,6 +973,8 @@ File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
    defining Unicode char U+25E6 (decimal 9702)
    defining Unicode char U+25EF (decimal 9711)
    defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+27E8 (decimal 10216)
+   defining Unicode char U+27E9 (decimal 10217)
    defining Unicode char U+FEFF (decimal 65279)
 )
 ("C:\Users\edgardo\AppData\Local\Programs\MiKTeX 2.9\tex/latex/translator\trans
@@ -1009,36 +998,42 @@ Package biblatex Info: Automatic encoding selection.
 \openout3 = `congestion_index.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'congestion_index.bbl' not found.
-
-No file congestion_index.bbl.
-Package biblatex Info: Reference section=0 on input line 30.
-Package biblatex Info: Reference segment=0 on input line 30.
+Package biblatex Info: ... file 'congestion_index.bbl' found.
+ (congestion_index.bbl)
+Package biblatex Info: Reference section=0 on input line 29.
+Package biblatex Info: Reference segment=0 on input line 29.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 30.
+(lastpage)             ! on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 30.
+(Font)              <10.95> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 29.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
+(Font)              <6> on input line 29.
+
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18.06749> not available
-(Font)              size <17.28> substituted on input line 31.
+(Font)              size <17.28> substituted on input line 30.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18.06749> not available
-(Font)              size <17.28> substituted on input line 31.
+(Font)              size <17.28> substituted on input line 30.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 43.
+(Font)              <9> on input line 42.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 43.
+(Font)              <5> on input line 42.
+
+Underfull \hbox (badness 1546) in paragraph at lines 49--49
+[]\OT1/cmr/m/n/10.95 The definition of congestion in transportation facilities 
+has evolved over the years
+ []
+
 [1
 
 {C:/Users/edgardo/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
@@ -1048,106 +1043,92 @@ Make it at least 13.0pt.
 We now make it that large for the rest of the document.
 This may cause the page layout to be inconsistent, however.
 
-[2] [3]
-<./Img/amsterdam_tti.png, id=22, 497.86pt x 373.395pt>
+[2] [3] [4]
+<./Img/amsterdam_tti.png, id=25, 497.86pt x 373.395pt>
 File: ./Img/amsterdam_tti.png Graphic file (type png)
 <use ./Img/amsterdam_tti.png>
-Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 197.
+Package pdftex.def Info: ./Img/amsterdam_tti.png  used on input line 209.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
-<./Img/glasgow_tti.png, id=24, 497.86pt x 373.395pt>
+<./Img/glasgow_tti.png, id=27, 497.86pt x 373.395pt>
 File: ./Img/glasgow_tti.png Graphic file (type png)
 <use ./Img/glasgow_tti.png>
-Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 200.
+Package pdftex.def Info: ./Img/glasgow_tti.png  used on input line 212.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
-<./Img/goteborg_tti.png, id=25, 497.86pt x 373.395pt>
+<./Img/goteborg_tti.png, id=28, 497.86pt x 373.395pt>
 File: ./Img/goteborg_tti.png Graphic file (type png)
 <use ./Img/goteborg_tti.png>
-Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 203.
+Package pdftex.def Info: ./Img/goteborg_tti.png  used on input line 215.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
-<./Img/lisbon_tti.png, id=26, 497.86pt x 373.395pt>
+<./Img/lisbon_tti.png, id=29, 497.86pt x 373.395pt>
 File: ./Img/lisbon_tti.png Graphic file (type png)
 <use ./Img/lisbon_tti.png>
-Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 206.
+Package pdftex.def Info: ./Img/lisbon_tti.png  used on input line 218.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
- [4]
 <./Img/amsterdam_time_diff_min.png, id=30, 497.86pt x 373.395pt>
 File: ./Img/amsterdam_time_diff_min.png Graphic file (type png)
 <use ./Img/amsterdam_time_diff_min.png>
 Package pdftex.def Info: ./Img/amsterdam_time_diff_min.png  used on input line 
-220.
+232.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/glasgow_time_diff_min.png, id=31, 497.86pt x 373.395pt>
 File: ./Img/glasgow_time_diff_min.png Graphic file (type png)
 <use ./Img/glasgow_time_diff_min.png>
-Package pdftex.def Info: ./Img/glasgow_time_diff_min.png  used on input line 22
-3.
+Package pdftex.def Info: ./Img/glasgow_time_diff_min.png  used on input line 23
+5.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/goteborg_time_diff_min.png, id=32, 497.86pt x 373.395pt>
 File: ./Img/goteborg_time_diff_min.png Graphic file (type png)
 <use ./Img/goteborg_time_diff_min.png>
 Package pdftex.def Info: ./Img/goteborg_time_diff_min.png  used on input line 2
-26.
+38.
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
 <./Img/lisbon_time_diff_min.png, id=33, 497.86pt x 373.395pt>
 File: ./Img/lisbon_time_diff_min.png Graphic file (type png)
 <use ./Img/lisbon_time_diff_min.png>
-Package pdftex.def Info: ./Img/lisbon_time_diff_min.png  used on input line 229
+Package pdftex.def Info: ./Img/lisbon_time_diff_min.png  used on input line 241
 .
 (pdftex.def)             Requested size: 178.09755pt x 113.80838pt.
  [5 <./Img/amsterdam_tti.png> <./Img/glasgow_tti.png> <./Img/goteborg_tti.png> 
-<./Img/lisbon_tti.png> <./Img/amsterdam_time_diff_min.png> <./Img/glasgow_time_
-diff_min.png> <./Img/goteborg_time_diff_min.png> <./Img/lisbon_time_diff_min.pn
-g>]
-
-LaTeX Warning: Citation 'Lomax1997' on page 6 undefined on input line 250.
-
-
-LaTeX Warning: Empty bibliography on input line 280.
-
-
+<./Img/lisbon_tti.png>] [6 <./Img/amsterdam_time_diff_min.png> <./Img/glasgow_t
+ime_diff_min.png> <./Img/goteborg_time_diff_min.png> <./Img/lisbon_time_diff_mi
+n.png>] 
 AED: lastpage setting LastPage
-[6] (congestion_index.aux)
+[7] (congestion_index.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.78749pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                congestion_index
-(biblatex)                and rerun LaTeX afterwards.
 
 Package logreq Info: Writing requests to 'congestion_index.run.xml'.
 \openout1 = `congestion_index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24674 strings out of 492895
- 485171 string characters out of 3122800
- 917490 words of memory out of 3000000
- 28388 multiletter control sequences out of 15000+200000
- 540252 words of font info for 52 fonts, out of 3000000 for 9000
+ 25362 strings out of 492449
+ 496488 string characters out of 3119058
+ 939982 words of memory out of 3000000
+ 29517 multiletter control sequences out of 15000+200000
+ 540553 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,10n,87p,1201b,1608s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 47i,10n,87p,1201b,1608s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmbx12.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/edgardo/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/edgardo/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
-sers/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr6.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr9.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/edgardo/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/edgardo/AppData/Lo
-cal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pfb><C:/Users/edga
-rdo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-
-Output written on congestion_index.pdf (6 pages, 3827808 bytes).
+rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/edgardo
+/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:
+/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr10.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmr6.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/edgardo/AppData/Local/Programs/M
+iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/edgardo/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/ed
+gardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti9.pf
+b><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmtt10.pfb><C:/Users/edgardo/AppData/Local/Programs/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt9.pfb>
+Output written on congestion_index.pdf (7 pages, 3854557 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 95 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

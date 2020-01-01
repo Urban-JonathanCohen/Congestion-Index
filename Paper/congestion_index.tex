@@ -3,27 +3,26 @@
 \usepackage{booktabs}
 \usepackage{siunitx}
 \usepackage{enumitem}
-\usepackage[options]{biblatex}
+\usepackage[utf8]{inputenc}
+\usepackage{csquotes}
+\usepackage[backend=biber,style=authoryear]{biblatex}
 
 \usepackage{subfig,multicol}
 \usepackage[export]{adjustbox}
 \usepackage{float}
 
-
-\usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
 \usepackage{fancyhdr}
-\usepackage{lastpage}
 
+\usepackage{lastpage}
 \pagestyle{fancy}
 \fancyhf{}
-
-
 \rfoot{Page \thepage \hspace{1pt} of \pageref{LastPage}}
 
 
 \addbibresource{Congested.bib}
-\nocite{*}
+%\nocite{*}
+
 
 
 
@@ -43,11 +42,29 @@
 	All articles {\it must} contain an abstract. This document describes the  preparation of a conference paper to be published in \jpcs\ using \LaTeXe\ and the \cls\ class file. The abstract text should be formatted using 10 point font and indented 25 mm from the left margin. Leave 10 mm space after the abstract before you begin the main text of your article. The text of your article should start on the same page as the abstract. The abstract follows the addresses and should give readers concise information about the content of the article and indicate the main results obtained and conclusions drawn. As the abstract is not part of the text it should be complete in itself; no table numbers, figure numbers, references or displayed mathematical expressions should be included. It should be suitable for direct inclusion in abstracting services and should not normally exceed 200 words. The abstract should generally be restricted to a single paragraph. Since contemporary information-retrieval systems rely heavily on the content of titles and abstracts to identify relevant articles in literature searches, great care should be taken in constructing both.
 \end{abstract}
 
-\
 
 \section{Introduction}
-\indent What are the problems with congestion? Is it mentioned in UN Habitat NUA, or SDGs e.g.11?\par
-\indent What are the clients of this index? Who needs such an index, and to do what?\par
+\indent Although United Nations (UN) has not identified  efficient, clean and equitable mobility as one the 18 Sustainable Development Goals (SDGs), transportation indicators are present within several Goals. Sustainable transport systems are acknowledged to be necessary pre-conditions to enhance socio-economic opportunities, diminish environmental costs and improve road safety conditions. \par
+\indent Within cities over 60\% of the total wealth is produced and the positive externalities of living in urban areas has been extensible registered. However, as the population density increases a set of negative externalities such as pollution, crime or congestion erode the benefits of urban life. \par
+\indent The definition of congestion in transportation facilities has evolved over the years (XXXXXXX) and there is no universal accepted definition for the problem. \par 
+
+
+\indent The interest on traffic congestion is diverse so as the can have According to Lomax a Traffic congestion 
+
+
+
+\indent In a survey deployed to reveal the importance of traffic congestion, (Bertini, 2005) shows the different apporaches that can be taken to define an measure congesiotn. The results reinforce the idea that multiple definitions co-exist and that they can be used for different purposes
+
+
+
+\indent In this paper traffic congestion in cities will be considered a \textit{' by-product of their success in attracting people to jobs and other amenities, and the inability of cities to improve/expand transportation capacity to keep pace with this growth.'} (Falcocchio \& Levinson, 2015) contine stating that \textit{'the cities’ challenge is to keep congestion manageable as their population and economies grow. To be helpful in congestion management decisions, the definition of congestion should be based on a comparison of “actual travel times” with “expected travel times” for peak hour and off-peak conditions.'}
+
+
+\subsection{Research Aim}
+\indent As mentioned above, traffic congestion is an urban problem that deteriorate the positive benefits of urban life, therefore is imperative to understand the problem in depth and look at it from different angles. Traditional congestion measurements are found to be costly and through practice or research different methods have been explored to overcome this issue. \par
+\indent One avenue of research understands congestion as a time and location specific problem, which occurs in a road segment and that its consequences are suffered from those in the immediate surroundings. A second understanding of the problem deals with the individuals who are affected by traffic. \par
+\indent Focusing on this second interpretation of the problem, the aim of this research is to provide a methodology to spatialize congestion to expose how traffic congestion is distributed across an urban area. The map of congestion can provide useful information to local authorities and planners since more disaggregated spatial information will be provided. \par
+
 
 \section{Background}
 
@@ -82,11 +99,6 @@ In parallel, as the list of traffic congestion measurements increased
 
 
 
-
-\section{Research Aim}
-\indent As mentioned above, traffic congestion is an urban problem that deteriorate the positive benefits of urban life, therefore is imperative to understand the problem in depth and look at it from different angles. Traditional congestion measurements are found to be costly and through practice or research different methods have been explored to overcome this issue. \par
-\indent One avenue of research understands congestion as a time and location specific problem, which occurs in a road segment and that its consequences are suffered from those in the immediate surroundings. A second understanding of the problem deals with the individuals who are affected by traffic. \par
-\indent Focusing on this second interpretation of the problem, the aim of this research is to provide a methodology to spatialize congestion to expose how traffic congestion is distributed across an urban area. The map of congestion can provide useful information to local authorities and planners since more disaggregated spatial information will be provided. \par
 
 
 
@@ -247,9 +259,10 @@ granularity
 area covered
 
 \subsection{Applications}
-\indent As shown \cite{Lomax1997} Traffic congestion measurements can be used  
-
-
+\indent As shown
+ 1.\cite{Lomax1997} \par
+ 2.\parencite{Lomax1997} \par 
+ 3.\textcite{Lomax1997} \par
 
 
 
@@ -270,12 +283,6 @@ In this case
 
 
 
-\section*{References}
-
-
-
-
-
 
 \printbibliography
 
@@ -288,67 +295,6 @@ In this case
 
 
 
-
-
-%
-%
-%\begin{figure}[H]
-%	\centering	
-%	\begin{multicols}{4}
-%		\noindent
-%		\subfloat[Data Science]{\centering
-%			\includegraphics[width=1\linewidth, height=5cm]{./Img/amsterdam_tti}} \par 
-%		%
-%		\subfloat[New Data Sources]{\centering
-%			\includegraphics[width=1\linewidth,height=5cm]{./Img/glasgow_tti}} \par
-%		%
-%		\subfloat[Data Capture]{\centering
-%			\includegraphics[width=1\linewidth,height=5cm]{./Img/lisbon_tti}} \par
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=5cm]{./Img/goteborg_tti}} \newpage
-%		%
-%		\subfloat[Data Capture]{\centering
-%			\includegraphics[width=1\linewidth,height=4cm]{./Img/2_1.PNG}} \par
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/2_2.PNG}} \par
-%		%
-%		\subfloat[Data Capture]{\centering
-%			\includegraphics[width=1\linewidth,height=4cm]{./Img/2_3.PNG}} \par
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/2_4.PNG}} \newpage
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/3_1.PNG}} \par
-%		%
-%		\subfloat[Data Capture]{\centering
-%			\includegraphics[width=1\linewidth,height=4cm]{./Img/3_2.PNG}} \par
-%		%
-%		\subfloat[Data Capture]{\centering
-%			\includegraphics[width=1\linewidth,height=4cm]{./Img/3_3.PNG}} \par
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/3_4.PNG}} \newpage
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_1.PNG}} \par
-%		%
-%		\subfloat[Data Capture]{\centering
-%			\includegraphics[width=1\linewidth,height=4cm]{./Img/4_2.PNG}} \par
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_3.PNG}} \par
-%		%
-%		\subfloat[Visualization]{\centering
-%			\includegraphics[width=1\linewidth, height=4cm]{./Img/4_4.PNG}} \par
-%		%	
-%	\end{multicols}
-%	\caption{Images extracted from results}
-%	\label{fig:result_imgs}
-%\end{figure}
-%
 
 
 
