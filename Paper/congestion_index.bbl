@@ -19,6 +19,795 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global}
+    \entry{Aftabuzzaman2007}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0467f64ea730b81b47ee127197cf4b6d}{%
+           family={Aftabuzzaman},
+           familyi={A\bibinitperiod},
+           given={Md},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0467f64ea730b81b47ee127197cf4b6d}
+      \strng{fullhash}{0467f64ea730b81b47ee127197cf4b6d}
+      \strng{bibnamehash}{0467f64ea730b81b47ee127197cf4b6d}
+      \strng{authorbibnamehash}{0467f64ea730b81b47ee127197cf4b6d}
+      \strng{authornamehash}{0467f64ea730b81b47ee127197cf4b6d}
+      \strng{authorfullhash}{0467f64ea730b81b47ee127197cf4b6d}
+      \field{sortinit}{A}
+      \field{sortinithash}{a3dcedd53b04d1adfd5ac303ecd5e6fa}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{30th Australasian Transport Research Forum}
+      \field{title}{{Measuring Traffic Congestion- A Critical Review}}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 16}
+      \range{pages}{16}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Aftabuzzaman/30th Australasian Transport Research Forum/Aftabuzzaman - 2007 - Measuring Traffic Congestion- A Critical Review.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bertini2005}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=243b664e0d96f5fdb9a5fcfec9e6d76d}{%
+           family={Bertini},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima L.},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{243b664e0d96f5fdb9a5fcfec9e6d76d}
+      \strng{fullhash}{243b664e0d96f5fdb9a5fcfec9e6d76d}
+      \strng{bibnamehash}{243b664e0d96f5fdb9a5fcfec9e6d76d}
+      \strng{authorbibnamehash}{243b664e0d96f5fdb9a5fcfec9e6d76d}
+      \strng{authornamehash}{243b664e0d96f5fdb9a5fcfec9e6d76d}
+      \strng{authorfullhash}{243b664e0d96f5fdb9a5fcfec9e6d76d}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The objective of this paper is to discuss current definitions of metropolitan traffic congestion and ways it is currently measured. In addition, the accuracy and reliability of these measures will be described along with a review of how congestion has been changing over the past several decades. First, the results of a survey among transportation professionals are summarized to assist in framing the issue. Most respondents linked the measurement of congestion to the increased travel time that occurs during peak periods. Roughly half of those surveyed felt that congestion measures are at least somewhat accurate, and about 80{\%} of those surveyed feel that congestion has worsened over the past 20 years. The paper includes a literature review of current trends in congestion definition and measurement, a discussion and short critique of one major congestion monitoring program, and presents some basic theory about how traffic parameters are often measured over time and space. A brief description of possible congestion measures over corridors and entire door-to-door trips is provided. Additional analysis of recent congestion measures for entire metropolitan area is provided, using Portland, Oregon and Minneapolis, Minnesota as case examples. Some discussion of the stability of daily travel budgets and alternative viewpoints about congestion are provided along with some conclusions and perspectives for future research.}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{9788578110796}
+      \field{issn}{1091-5818}
+      \field{journaltitle}{85th Annual Meetinf of the Transportation Research Board}
+      \field{number}{January}
+      \field{title}{{You are the Traffic Jam: An examination of congestion measures}}
+      \field{year}{2005}
+      \field{pages}{17}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324.004
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Bertini/85th Annual Meetinf of the Transportation Research Board/Bertini - 2005 - You are the Traffic Jam An examination of congestion measures.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/cbdv.200490137/abstract
+      \endverb
+      \verb{url}
+      \verb http://onlinelibrary.wiley.com/doi/10.1002/cbdv.200490137/abstract
+      \endverb
+    \endentry
+    \entry{Bilbao-ubillos2008}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5db500cec2f09690eb48ac343d951f28}{%
+           family={Bilbao-ubillos},
+           familyi={B\bibinithyphendelim u\bibinitperiod},
+           given={Javier},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5db500cec2f09690eb48ac343d951f28}
+      \strng{fullhash}{5db500cec2f09690eb48ac343d951f28}
+      \strng{bibnamehash}{5db500cec2f09690eb48ac343d951f28}
+      \strng{authorbibnamehash}{5db500cec2f09690eb48ac343d951f28}
+      \strng{authornamehash}{5db500cec2f09690eb48ac343d951f28}
+      \strng{authorfullhash}{5db500cec2f09690eb48ac343d951f28}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The costs of urban congestion : Estimation of welfare losses arising from congestion on cross-town link roads}}
+      \field{volume}{42}
+      \field{year}{2008}
+      \field{pages}{1098\bibrangedash 1108}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1016/j.tra.2008.03.015
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Bilbao-ubillos/Unknown/Bilbao-ubillos - 2008 - The costs of urban congestion Estimation of welfare losses arising from congestion on cross-town link roads.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Booth2000}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1247c0d9b3e967fc7bcdc36855b02602}{%
+           family={Booth},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4a29a53e0dbeef6bad9f7e9ad56d3ce7}{%
+           family={Hanmer},
+           familyi={H\bibinitperiod},
+           given={Lucia},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1454ed3604b21b4425193f5f80ec2d15}{%
+           family={Lovell},
+           familyi={L\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{2}{%
+        {World Bank}%
+        {DFID}%
+      }
+      \strng{namehash}{03a654fc8de57cbeeaf9e6b979ee2484}
+      \strng{fullhash}{03a654fc8de57cbeeaf9e6b979ee2484}
+      \strng{bibnamehash}{03a654fc8de57cbeeaf9e6b979ee2484}
+      \strng{authorbibnamehash}{03a654fc8de57cbeeaf9e6b979ee2484}
+      \strng{authornamehash}{03a654fc8de57cbeeaf9e6b979ee2484}
+      \strng{authorfullhash}{03a654fc8de57cbeeaf9e6b979ee2484}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This is the report of a study commisioned by the World Bank and DFID as an input into current thinking on the selection of instruments for inclusion in poverty-reduction strategies. The report contains the results of a survey of issues and evidence on the actual and potential contributions of the transport "sector"- or the field of possible transport interventions- to poverty reduction at the country level. level. It is not a contribution to specialist transport research or operational work, but an initial “take” on transport-and-poverty issues by a multi-disciplinary team of applied poverty researchers. The study draws on a comprehensive search of published and grey literature in the relevant fields, with special emphasis on the interface between transport studies and topics linked to poverty or the livelihoods of poor people. It benefited from the generous cooperation of a number of distinguished transport specialists, who helped to guide the literature search and contributed ideas and feedback. .}
+      \field{number}{June}
+      \field{title}{{Poverty and Transport}}
+      \field{type}{techreport}
+      \field{year}{2000}
+      \field{pages}{1\bibrangedash 152}
+      \range{pages}{152}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Booth, Hanmer, Lovell/Unknown/Booth, Hanmer, Lovell - 2000 - Poverty and Transport.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Bull2004}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=470bd08e7e14490bfd733ba3054c8af8}{%
+           family={Bull},
+           familyi={B\bibinitperiod},
+           given={Alberto},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{470bd08e7e14490bfd733ba3054c8af8}
+      \strng{fullhash}{470bd08e7e14490bfd733ba3054c8af8}
+      \strng{bibnamehash}{470bd08e7e14490bfd733ba3054c8af8}
+      \strng{authorbibnamehash}{470bd08e7e14490bfd733ba3054c8af8}
+      \strng{authornamehash}{470bd08e7e14490bfd733ba3054c8af8}
+      \strng{authorfullhash}{470bd08e7e14490bfd733ba3054c8af8}
+      \field{sortinit}{B}
+      \field{sortinithash}{8de16967003c7207dae369d874f1456e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{"Deutsche Gesellschaft für Technische Zusammenarbeit (GTZ) GmbH." "LC/G.2199-P"--Title page verso.}
+      \field{booktitle}{United nations: Economic Commission for latin America and the Caribbean, Deutsche gesellschaft f{ü}r Technische Zusammenarbelt (GTZ) GmbH}
+      \field{eprinttype}{arXiv}
+      \field{isbn}{92-1-121432-7}
+      \field{issn}{1727-0413}
+      \field{title}{{Traffic Congestion - The Problem and How to Deal with it?}}
+      \field{year}{2004}
+      \field{pages}{198}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1017/CBO9781107415324.004
+      \endverb
+      \verb{eprint}
+      \verb arXiv:1011.1669v3
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Bull/United nations Economic Commission for latin America and the Caribbean, Deutsche gesellschaft f{\"{u}}r Technische Zusammenarbelt (GTZ) GmbH/Bull - 2004 - Traffic Congestion - The Problem and How to Deal wit.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.cepal.org/es/suscripciones
+      \endverb
+      \verb{url}
+      \verb www.cepal.org/es/suscripciones
+      \endverb
+      \keyw{icle}
+    \endentry
+    \entry{Cervero1998}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b4b21cb4a9f57cdb95221a4a669cf85}{%
+           family={Cervero},
+           familyi={C\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Washington; D.C.}%
+      }
+      \list{publisher}{1}{%
+        {Island Press}%
+      }
+      \strng{namehash}{6b4b21cb4a9f57cdb95221a4a669cf85}
+      \strng{fullhash}{6b4b21cb4a9f57cdb95221a4a669cf85}
+      \strng{bibnamehash}{6b4b21cb4a9f57cdb95221a4a669cf85}
+      \strng{authorbibnamehash}{6b4b21cb4a9f57cdb95221a4a669cf85}
+      \strng{authornamehash}{6b4b21cb4a9f57cdb95221a4a669cf85}
+      \strng{authorfullhash}{6b4b21cb4a9f57cdb95221a4a669cf85}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{The Transit Metropolis}}
+      \field{year}{1998}
+    \endentry
+    \entry{Choi2013}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a22f305967c710987860e2180666077f}{%
+           family={Choi},
+           familyi={C\bibinitperiod},
+           given={Janet},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d63befb4959ddd0b0452e9aded817560}{%
+           family={Coughlin},
+           familyi={C\bibinitperiod},
+           given={Joseph\bibnamedelima F},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f873f4f90329685f9a7aedf0613dab97}{%
+           family={Ambrosio},
+           familyi={A\bibinitperiod},
+           given={Lisa\bibnamedelima D},
+           giveni={L\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0e05dea70d246fabd771110a86ce3d1a}
+      \strng{fullhash}{0e05dea70d246fabd771110a86ce3d1a}
+      \strng{bibnamehash}{0e05dea70d246fabd771110a86ce3d1a}
+      \strng{authorbibnamehash}{0e05dea70d246fabd771110a86ce3d1a}
+      \strng{authornamehash}{0e05dea70d246fabd771110a86ce3d1a}
+      \strng{authorfullhash}{0e05dea70d246fabd771110a86ce3d1a}
+      \field{sortinit}{C}
+      \field{sortinithash}{4c244ceae61406cdc0cc2ce1cb1ff703}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2357}
+      \field{title}{{Travel Time and Subjective Well-Being}}
+      \field{year}{2013}
+      \field{pages}{100\bibrangedash 108}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.3141/2357-12
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Choi, Coughlin, Ambrosio/Unknown/Choi, Coughlin, Ambrosio - 2013 - Travel Time and Subjective Well-Being.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Diakaki2003}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=450f3c068e3a5b3753ca41a42498c32a}{%
+           family={Diakaki},
+           familyi={D\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1c0c03e1ed68a2fe32a5801199646696}{%
+           family={Kotsialos},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=957b05eb2d9bfaf59947e44a46c3c7b3}{%
+           family={Wang},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{ca0ba457cddedf75fc5af1cf6aeffd9d}
+      \strng{fullhash}{ca0ba457cddedf75fc5af1cf6aeffd9d}
+      \strng{bibnamehash}{ca0ba457cddedf75fc5af1cf6aeffd9d}
+      \strng{authorbibnamehash}{ca0ba457cddedf75fc5af1cf6aeffd9d}
+      \strng{authornamehash}{ca0ba457cddedf75fc5af1cf6aeffd9d}
+      \strng{authorfullhash}{ca0ba457cddedf75fc5af1cf6aeffd9d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9219}
+      \field{journaltitle}{Proceedings of the IEEE}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{Review of road traffic control strategies}}
+      \field{volume}{91}
+      \field{year}{2003}
+      \field{pages}{2041\bibrangedash 2042}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1109/JPROC.2003.819606
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Diakaki, Kotsialos, Wang/Proceedings of the IEEE/Diakaki, Kotsialos, Wang - 2003 - Review of road traffic control strategies.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/1246385/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1246385/
+      \endverb
+      \keyw{driver information,freeway network control,gent transportation systems,intelli-,ramp metering,route guidance,signal control,traffic,urban network control}
+    \endentry
+    \entry{Downs1992}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=edbc744b7095af3d7da169d97b58101d}{%
+           family={Downs},
+           familyi={D\bibinitperiod},
+           given={Anthony},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{fullhash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{bibnamehash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{authorbibnamehash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{authornamehash}{edbc744b7095af3d7da169d97b58101d}
+      \strng{authorfullhash}{edbc744b7095af3d7da169d97b58101d}
+      \field{sortinit}{D}
+      \field{sortinithash}{c438b3d5d027251ba63f5ed538d98af5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{0815719299}
+      \field{title}{{Still stuck on traffic - Coping with Peak-Hour Traffic Congestion}}
+      \field{year}{1992}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Downs/Unknown/Downs - Unknown - Still stuck on traffic.pdf:pdf
+      \endverb
+    \endentry
+    \entry{EuropeanCommission2001}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a1b813a6e85874b4c945aec2cdbea74c}{%
+           family={{European Commission}},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{fullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{bibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorbibnamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authornamehash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \strng{authorfullhash}{a1b813a6e85874b4c945aec2cdbea74c}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this white paper and in keeping with the sustainable development strategy adopted by the European Council in Gothenburg in June 2001, the Commission proposes some 60 measures aimed at developing a European transport system capable of shifting the balance between modes of transport, revitalising the railways, promoting transport by sea and inland waterways and controlling the growth in air transport.}
+      \field{booktitle}{Commission of the European Communities}
+      \field{isbn}{COM(2001) 370 final}
+      \field{number}{2001}
+      \field{title}{{WHITE PAPER: European transport policy for 2010: time to decide}}
+      \field{year}{2001}
+      \field{pages}{124}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 9289403411
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/European Commission/Commission of the European Communities/European Commission - 2001 - WHITE PAPER European transport policy for 2010 time to decide.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ec.europa.eu/transport/white{\_}paper/documents/doc/lb{\_}com{\_}2001{\_}0370{\_}en.pdf
+      \endverb
+      \verb{url}
+      \verb http://ec.europa.eu/transport/white%7B%5C_%7Dpaper/documents/doc/lb%7B%5C_%7Dcom%7B%5C_%7D2001%7B%5C_%7D0370%7B%5C_%7Den.pdf
+      \endverb
+    \endentry
+    \entry{Eurostat2016}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=533195c920679b5848eb14c3f57cc69c}{%
+           family={Eurostat},
+           familyi={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{fullhash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{bibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorbibnamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authornamehash}{533195c920679b5848eb14c3f57cc69c}
+      \strng{authorfullhash}{533195c920679b5848eb14c3f57cc69c}
+      \field{sortinit}{E}
+      \field{sortinithash}{c554bd1a0b76ea92b9f105fe36d9c7b0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Statistical information is an important tool for analysing changing patterns of urban development and the impact that policy decisions have on life in our cities, towns and suburbs. Urban Europe — statistics on cities, towns and suburbs provides detailed information for a number of territorial typologies that can be used to paint a picture of urban developments and urban life in the EU Member States, as well as EFTA and candidate countries. Each chapter presents statistical information in the form of maps, tables and figures, accompanied by a description of the policy context and a set of main findings. The publication is broken down into two parts: the first treats topics under the heading of city and urban developments, while the second focuses on the people in cities and the lives they lead. Overall there are 12 main chapters, covering: the urban paradox, patterns of urban and city developments, the dominance of capital cities, smart cities, green cities, tourism and culture in cities, living in cities, working in cities, housing in cities, foreign-born persons in cities, poverty and social exclusion in cities, as well as satisfaction and the quality of life in cities.}
+      \field{booktitle}{The European Territory}
+      \field{isbn}{978-92-79-60139-2}
+      \field{title}{{Urban Europe}}
+      \field{year}{2016}
+      \field{pages}{3\bibrangedash 69}
+      \range{pages}{67}
+      \verb{doi}
+      \verb 10.2785/9112094675
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Eurostat/The European Territory/Eurostat - 2016 - Urban Europe.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Falcocchio2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=41421ffb6384f290282e32ddc51fa7b9}{%
+           family={Falcocchio},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=64388ea203fc7109e8f8e7ff73d217d7}{%
+           family={Levinson},
+           familyi={L\bibinitperiod},
+           given={Herbert\bibnamedelima S.},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{92d72890b872f36560810b7d723b7dd4}
+      \strng{fullhash}{92d72890b872f36560810b7d723b7dd4}
+      \strng{bibnamehash}{92d72890b872f36560810b7d723b7dd4}
+      \strng{authorbibnamehash}{92d72890b872f36560810b7d723b7dd4}
+      \strng{authornamehash}{92d72890b872f36560810b7d723b7dd4}
+      \strng{authorfullhash}{92d72890b872f36560810b7d723b7dd4}
+      \field{sortinit}{F}
+      \field{sortinithash}{fb0c0faa89eb6abae8213bf60e6799ea}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Congestion in transportation occurs when the occupancy of spaces (roadways, sidewalks, transit lines and terminals) by vehicles or people reaches unacceptable levels of discomfort and delay.}
+      \field{issn}{21948127}
+      \field{journaltitle}{Springer Tracts on Transportation and Traffic}
+      \field{number}{98}
+      \field{title}{{Measuring traffic congestion}}
+      \field{volume}{7}
+      \field{year}{2015}
+      \field{pages}{93\bibrangedash 110}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1007/978-3-319-15165-6_8
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/He et al/Computers, Environment and Urban Systems/He et al. - 2016 - Measuring Urban Traffic Congestion – a Review.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Glaeser2011}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2b41d6ca29618683e119f3255b723113}{%
+           family={Glaeser},
+           familyi={G\bibinitperiod},
+           given={Edward\bibnamedelima L},
+           giveni={E\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2b41d6ca29618683e119f3255b723113}
+      \strng{fullhash}{2b41d6ca29618683e119f3255b723113}
+      \strng{bibnamehash}{2b41d6ca29618683e119f3255b723113}
+      \strng{authorbibnamehash}{2b41d6ca29618683e119f3255b723113}
+      \strng{authornamehash}{2b41d6ca29618683e119f3255b723113}
+      \strng{authorfullhash}{2b41d6ca29618683e119f3255b723113}
+      \field{sortinit}{G}
+      \field{sortinithash}{62eb2aa29549e4fdbd3cb154ec5711cb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Science}
+      \field{number}{July}
+      \field{title}{{Cities, Productivity, and Quality of Life}}
+      \field{volume}{***}
+      \field{year}{2011}
+      \field{pages}{592\bibrangedash 595}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1126/science.1209264
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Glaeser/Science/Glaeser - 2011 - Cities, Productivity, and Quality of Life.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://science.sciencemag.org/content/333/6042/592{\#}BIBL
+      \endverb
+      \verb{url}
+      \verb https://science.sciencemag.org/content/333/6042/592%7B%5C#%7DBIBL
+      \endverb
+    \endentry
+    \entry{UN-Habitat2015}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=98e863c60bc0d0a88c73e880aa4d76fb}{%
+           family={UN-Habitat},
+           familyi={U\bibinithyphendelim H\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=2fdde55bb5e9e8ba64a258bd2e4bb33b}{%
+           family={UNEP},
+           familyi={U\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=c78ac9f0e86b550fe43ffed57ab710d2}{%
+           family={SLoCaT},
+           familyi={S\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {UN-Habitat, UNEP, SLoCaT}%
+      }
+      \strng{namehash}{69fd79369d5b9c838014922a845f7ada}
+      \strng{fullhash}{69fd79369d5b9c838014922a845f7ada}
+      \strng{bibnamehash}{69fd79369d5b9c838014922a845f7ada}
+      \strng{authorbibnamehash}{69fd79369d5b9c838014922a845f7ada}
+      \strng{authornamehash}{69fd79369d5b9c838014922a845f7ada}
+      \strng{authorfullhash}{69fd79369d5b9c838014922a845f7ada}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{September}
+      \field{title}{{Analysis of the Transport Relevance of Each of the 17 SDGs}}
+      \field{type}{techreport}
+      \field{year}{2015}
+      \field{pages}{20}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/UN-Habitat, UNEP, SLoCaT/Unknown/UN-Habitat, UNEP, SLoCaT - 2015 - Analysis of the Transport Relevance of Each of the 17 SDGs.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hamad2002}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d3c74ec12dcd05afdb8406f9cf4ba497}{%
+           family={Hamad},
+           familyi={H\bibinitperiod},
+           given={Khaled},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c1c369fa1b3cb124c077df91fa5613d9}{%
+           family={Kikuchi},
+           familyi={K\bibinitperiod},
+           given={Shinya},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{466f11f10d22c7eb89fda7a2f7363e99}
+      \strng{fullhash}{466f11f10d22c7eb89fda7a2f7363e99}
+      \strng{bibnamehash}{466f11f10d22c7eb89fda7a2f7363e99}
+      \strng{authorbibnamehash}{466f11f10d22c7eb89fda7a2f7363e99}
+      \strng{authornamehash}{466f11f10d22c7eb89fda7a2f7363e99}
+      \strng{authorfullhash}{466f11f10d22c7eb89fda7a2f7363e99}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many measures have been proposed to represent the status of traffic con- ditions on arterial roadways in urban areas. The debate about what is the most appropriate measure continues. In a contribution to the debate, another approach was offered. Traditionally, two general approaches exist. One is based on the relationship between supply and demand. The other is a measure relative to the most acceptable status of service qual- ity. The latter measure allows the public to relate to their travel experi- ence. In either case, however, derivation of measures of congestion involves uncertainty because of imprecision of the measurement, the trav- eler's perception of acceptability, variation in sample data, and the ana- lyst's uncertainty about causal relations. A measure is proposed that is a composite of two traditional measures, travel speed and delay. In recog- nition of the uncertainty, a fuzzy inference process was proposed. The inputs are travel speed, free-flow speed, and the proportion of very low speed in the total travel time. These values were processed through fuzzy- rule-based inference. The outcome was a single congestion index value between 0 and 1, where 0 is the best condition and 1 is the worst condition. The process was demonstrated using real-world data. The results were compared with those of the Highway Capacity Manual. Although no con- clusion can be drawn about the best measure of congestion, the proposed inference process allows the mechanism to combine different measures and also to incorporate the uncertainty in the individual measures so that the composite picture of congestion can be reproduced.}
+      \field{journaltitle}{Transportation Research Record}
+      \field{number}{02-2770}
+      \field{title}{{Developing a Measure of Traffic Congestion}}
+      \field{volume}{1802}
+      \field{year}{2002}
+      \field{pages}{77\bibrangedash 85}
+      \range{pages}{9}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Hamad, Kikuchi/Transportation Research Record/Hamad, Kikuchi - 2002 - Developing a Measure of Traffic Congestion.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Hennessy199}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2803b44025b88919aa376ca90eaa93f5}{%
+           family={Hennessy},
+           familyi={H\bibinitperiod},
+           given={Dwight\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=aa3507086a1d70ea0d6a5f221638e2fe}{%
+           family={Wiesenthal},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a6666cbe3915e0cc7191da9a57f2f15e}
+      \strng{fullhash}{a6666cbe3915e0cc7191da9a57f2f15e}
+      \strng{bibnamehash}{a6666cbe3915e0cc7191da9a57f2f15e}
+      \strng{authorbibnamehash}{a6666cbe3915e0cc7191da9a57f2f15e}
+      \strng{authornamehash}{a6666cbe3915e0cc7191da9a57f2f15e}
+      \strng{authorfullhash}{a6666cbe3915e0cc7191da9a57f2f15e}
+      \field{sortinit}{H}
+      \field{sortinithash}{6db6145dae8dc9e1271a8d556090b50a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Drivers were interviewed over cellular telephones in high- and low-congestion conditions during a single commute. During each interview, state measures of driver stress and driver behaviors were obtained. Behavior responses were subdivided into six categories: aggressive, information seeking, planning, minor self-destructive, distraction, and relaxation techniques. Both state driver stress and aggression were greater in high- than in low-congestion conditions. No other behavior category differed between low and high congestion. Multiple regressions were calculated to determine the predictors of state driver stress. In low congestion, time urgency predicted state driver stress, while aggression predicted driver stress in high congestion. In both conditions, a trait susceptibility toward viewing driving as generally stressful was predictive of state driver stress levels, which further strengthens the use of the Driving Behaviour Inventory—General as a predictor of “trait” driver stress. Females and males did not differentiate on state stress or any behavior category. Aggr. Behav. 25:409–423, 1999. © 1999 Wiley-Liss, Inc.}
+      \field{journaltitle}{Aggressive Behavior}
+      \field{number}{6}
+      \field{title}{Traffic congestion, driver stress, and driver aggression}
+      \field{volume}{25}
+      \field{year}{1999}
+      \field{pages}{409\bibrangedash 423}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1002/(SICI)1098-2337(1999)25:6<409::AID-AB2>3.0.CO;2-0
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/%28SICI%291098-2337%281999%2925%3A6%3C409%3A%3AAID-AB2%3E3.0.CO%3B2-0
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291098-2337%281999%2925%3A6%3C409%3A%3AAID-AB2%3E3.0.CO%3B2-0
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/%28SICI%291098-2337%281999%2925%3A6%3C409%3A%3AAID-AB2%3E3.0.CO%3B2-0
+      \endverb
+      \keyw{automobile driving,aggression,stress,traffic congestion}
+    \endentry
+    \entry{Inrix2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e42a7ab55a84e476833e813182168a6}{%
+           family={Inrix},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{9e42a7ab55a84e476833e813182168a6}
+      \strng{fullhash}{9e42a7ab55a84e476833e813182168a6}
+      \strng{bibnamehash}{9e42a7ab55a84e476833e813182168a6}
+      \strng{authorbibnamehash}{9e42a7ab55a84e476833e813182168a6}
+      \strng{authornamehash}{9e42a7ab55a84e476833e813182168a6}
+      \strng{authorfullhash}{9e42a7ab55a84e476833e813182168a6}
+      \field{sortinit}{I}
+      \field{sortinithash}{9417e9a1288a9371e2691d999083ed39}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{INRIX 2018 Global Traffic Scorecard}}
+      \field{urlday}{4}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://inrix.com/scorecard/{\#}
+      \endverb
+      \verb{url}
+      \verb http://inrix.com/scorecard/%7B%5C#%7D
+      \endverb
+    \endentry
+    \entry{Jennings2016}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2277b8d7e6f6bee64bfde2a1453a21f2}{%
+           family={Jennings},
+           familyi={J\bibinitperiod},
+           given={Gail},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Sustainable, Low Carbon Transport (SLoCaT)}%
+      }
+      \strng{namehash}{2277b8d7e6f6bee64bfde2a1453a21f2}
+      \strng{fullhash}{2277b8d7e6f6bee64bfde2a1453a21f2}
+      \strng{bibnamehash}{2277b8d7e6f6bee64bfde2a1453a21f2}
+      \strng{authorbibnamehash}{2277b8d7e6f6bee64bfde2a1453a21f2}
+      \strng{authornamehash}{2277b8d7e6f6bee64bfde2a1453a21f2}
+      \strng{authorfullhash}{2277b8d7e6f6bee64bfde2a1453a21f2}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TRANSPORT, POVERTY ALLEVIATION AND THE PRINCIPLES OF SOCIAL JUSTICE}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \field{pages}{36}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Jennings/Unknown/Jennings - 2016 - TRANSPORT, POVERTY ALLEVIATION AND THE PRINCIPLES OF SOCIAL JUSTICE.pdf:pdf
+      \endverb
+    \endentry
+    \entry{JoeCortright2010}{report}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7af4fbbb4d20566fde11b1f3a116b4f4}{%
+           family={{Joe Cortright}},
+           familyi={J\bibinitperiod},
+           given={Impresa},
+           giveni={I\bibinitperiod},
+           givenun=0,
+           prefix={for},
+           prefixi={f\bibinitperiod},
+           prefixun=0}}%
+        {{un=0,uniquepart=base,hash=78b597f20ea45cabbd4881dfc2498031}{%
+           family={CEOs},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{67ed02eff3e91e5beb977b8ddd4417db}
+      \strng{fullhash}{67ed02eff3e91e5beb977b8ddd4417db}
+      \strng{bibnamehash}{67ed02eff3e91e5beb977b8ddd4417db}
+      \strng{authorbibnamehash}{67ed02eff3e91e5beb977b8ddd4417db}
+      \strng{authornamehash}{67ed02eff3e91e5beb977b8ddd4417db}
+      \strng{authorfullhash}{67ed02eff3e91e5beb977b8ddd4417db}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Changes in law and regulation are moving the nation away from vehicle operating speed as the be-all, end-all of transportation planning. The aggregate volume of travel is being viewed, for the first time, as something to be minimized rather than maximized. Within this context, localities and metropolitan planning organizations have freedom to innovate in their selection of transportation system performance measures. This paper proposes a unified set of performance measures that is based on the minimization of vehicle hours of travel (VHT) per capita. This approach promotes efficiency of both land use patterns and transportation networks.}
+      \field{booktitle}{Transportation Quarterly}
+      \field{issn}{02789434}
+      \field{number}{1}
+      \field{title}{{Measuring transportation performance}}
+      \field{type}{techreport}
+      \field{volume}{49}
+      \field{year}{2010}
+      \field{pages}{91\bibrangedash 104}
+      \range{pages}{14}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Joe Cortright/Transportation Quarterly/Joe Cortright - 2010 - Measuring transportation performance.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb www.ceosforcities.org/work
+      \endverb
+      \verb{url}
+      \verb www.ceosforcities.org/work
+      \endverb
+    \endentry
+    \entry{Jones1992}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d23a959254577b753ce24ef9c263d07b}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=52dfff5550be2d6143c1734989b6b598}{%
+           family={Hervik},
+           familyi={H\bibinitperiod},
+           given={Arild},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{dd77406fcc80d66fa237d93135497981}
+      \strng{fullhash}{dd77406fcc80d66fa237d93135497981}
+      \strng{bibnamehash}{dd77406fcc80d66fa237d93135497981}
+      \strng{authorbibnamehash}{dd77406fcc80d66fa237d93135497981}
+      \strng{authornamehash}{dd77406fcc80d66fa237d93135497981}
+      \strng{authorfullhash}{dd77406fcc80d66fa237d93135497981}
+      \field{sortinit}{J}
+      \field{sortinithash}{c45040a764d616897e7f5b30174d7b92}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2}
+      \field{title}{{RESTRAINING CAR TRAFFIC IN EUROPEAN CITIES : AN EMERGING ROLE FOR ROAD PRICING}}
+      \field{volume}{26}
+      \field{year}{1992}
+      \field{pages}{133\bibrangedash 145}
+      \range{pages}{13}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Jones, Hervik/Unknown/Jones, Hervik - 1992 - RESTRAINING CAR TRAFFIC IN EUROPEAN CITIES AN EMERGING ROLE FOR ROAD PRICING.pdf:pdf
+      \endverb
+    \endentry
     \entry{Lomax1997}{report}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=c9650ef38aaf0b0804cc2361b9e23b39}{%
@@ -73,6 +862,594 @@
       \verb{url}
       \verb http://worldcat.org/isbn/0309060710
       \endverb
+    \endentry
+    \entry{McKinseyGlobalInstitute2011}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f16b2e129dc4f39811f4611e60d06026}{%
+           family={{McKinsey Global Institute}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f16b2e129dc4f39811f4611e60d06026}
+      \strng{fullhash}{f16b2e129dc4f39811f4611e60d06026}
+      \strng{bibnamehash}{f16b2e129dc4f39811f4611e60d06026}
+      \strng{authorbibnamehash}{f16b2e129dc4f39811f4611e60d06026}
+      \strng{authornamehash}{f16b2e129dc4f39811f4611e60d06026}
+      \strng{authorfullhash}{f16b2e129dc4f39811f4611e60d06026}
+      \field{sortinit}{M}
+      \field{sortinithash}{2e5c2f51f7fa2d957f3206819bf86dc3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{March}
+      \field{title}{{Urban world : Mapping the economic power of cities}}
+      \field{type}{techreport}
+      \field{year}{2011}
+      \field{pages}{62}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/McKinsey Global Institute/Unknown/McKinsey Global Institute - 2011 - Urban world Mapping the economic power of cities.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Pattara-atikom2006}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=173a68782969e28758729c82a295aaf3}{%
+           family={Pattara-atikom},
+           familyi={P\bibinithyphendelim a\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+        {{un=2,uniquepart=given,hash=084073a9383c6ba594a8c18117d16f3e}{%
+           family={Pongpaibool},
+           familyi={P\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=46dd7294caba3354c21936a1263d76f6}{%
+           family={Thajchayapong},
+           familyi={T\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{962350aafbf3dc3676193c4f39b7f5cf}
+      \strng{fullhash}{962350aafbf3dc3676193c4f39b7f5cf}
+      \strng{bibnamehash}{962350aafbf3dc3676193c4f39b7f5cf}
+      \strng{authorbibnamehash}{962350aafbf3dc3676193c4f39b7f5cf}
+      \strng{authornamehash}{962350aafbf3dc3676193c4f39b7f5cf}
+      \strng{authorfullhash}{962350aafbf3dc3676193c4f39b7f5cf}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This study investigates an alternative way to estimate degrees of road traffic congestion based on routine GPS measurements from main roads in urban areas of Bangkok, Thailand. We classify three levels of traffic congestion according to the wighted exponential moving averages of measured GPS speed. Human perception is used to obtain classification thresholds and evaluated the performance of the proposed method. The benefits of our proposed method over existing techniques is that it is simple, easy to understand, and compatible with existing traffic report systems in Bangkok. ©2006 IEEE.}
+      \field{isbn}{0780395867}
+      \field{journaltitle}{ITST 2006 - 2006 6th International Conference on ITS Telecommunications, Proceedings}
+      \field{title}{{Estimating road traffic congestion using vehicle velocity}}
+      \field{year}{2006}
+      \field{pages}{1001\bibrangedash 1004}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/ITST.2006.288722
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Pattara-atikom, Pongpaibool, Thajchayapong/ITST 2006 - 2006 6th International Conference on ITS Telecommunications, Proceedings/Pattara-atikom, Pongpaibool, Thajchayapong - 2006 - Estimating road traffic co.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Pongpaibool2007}{article}{}
+      \name{author}{3}{}{%
+        {{un=2,uniquepart=given,hash=6a5df0c390d5728b15a95808233ea1a3}{%
+           family={Pongpaibool},
+           familyi={P\bibinitperiod},
+           given={Panita},
+           giveni={P\bibinitperiod},
+           givenun=2}}%
+        {{un=0,uniquepart=base,hash=ce1c96b9776cbe40436e61a4ae2a2792}{%
+           family={Tangamchit},
+           familyi={T\bibinitperiod},
+           given={Poj},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a1899f952d7fba4516556cc0e82412e4}{%
+           family={Noodwong},
+           familyi={N\bibinitperiod},
+           given={Kanokchai},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34b25d277414b3f906c40d9c2d0088df}
+      \strng{fullhash}{34b25d277414b3f906c40d9c2d0088df}
+      \strng{bibnamehash}{34b25d277414b3f906c40d9c2d0088df}
+      \strng{authorbibnamehash}{34b25d277414b3f906c40d9c2d0088df}
+      \strng{authornamehash}{34b25d277414b3f906c40d9c2d0088df}
+      \strng{authorfullhash}{34b25d277414b3f906c40d9c2d0088df}
+      \field{sortinit}{P}
+      \field{sortinithash}{bb5b15f2db90f7aef79bb9e83defefcb}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper presents a road-traffic evaluation system from image processing data using manually tuned fuzzy logic and adaptive neuro-fuzzy techniques. The system is designed to emulate human's expertise on specifying three levels of traffic congestion within Bangkok Metropolitan Area. The traffic information comes from a vehicle detection and tracking software, which takes a road-traffic video signal as an input and computes vehicle volume and velocity. We verify accuracy of our system by comparing outputs of the system with opinions of volunteers who watch the same traffic video. Results show that manually tuned fuzzy logic achieves 88.79{\%} accuracy, while the adaptive neuro-fuzzy technique achieves only 75.43{\%} accuracy. ©2007 IEEE.}
+      \field{isbn}{1424412722}
+      \field{journaltitle}{IEEE Region 10 Annual International Conference, Proceedings/TENCON}
+      \field{title}{{Evaluation of road traffic congestion using fuzzy techniques}}
+      \field{year}{2007}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1109/TENCON.2007.4429119
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Pongpaibool, Tangamchit, Noodwong/IEEE Region 10 Annual International Conference, ProceedingsTENCON/Pongpaibool, Tangamchit, Noodwong - 2007 - Evaluation of road traffic congestion using fuzzy techniques.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Rempe2016}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fc1a978c909915012ce6d3ea3e6dfc63}{%
+           family={Rempe},
+           familyi={R\bibinitperiod},
+           given={Felix},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cfa6cf803d8aa53fea2fc0f10e9f0e70}{%
+           family={Huber},
+           familyi={H\bibinitperiod},
+           given={Gerhard},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=027886342e5235c4e7c58da0334eef64}{%
+           family={Bogenberger},
+           familyi={B\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier B.V.}%
+      }
+      \strng{namehash}{c9247fa5b10ef336f24b9f490dbf10ac}
+      \strng{fullhash}{c9247fa5b10ef336f24b9f490dbf10ac}
+      \strng{bibnamehash}{c9247fa5b10ef336f24b9f490dbf10ac}
+      \strng{authorbibnamehash}{c9247fa5b10ef336f24b9f490dbf10ac}
+      \strng{authornamehash}{c9247fa5b10ef336f24b9f490dbf10ac}
+      \strng{authorfullhash}{c9247fa5b10ef336f24b9f490dbf10ac}
+      \field{sortinit}{R}
+      \field{sortinithash}{b9c68a358aea118dfa887b6e902414a7}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{2352-1465}
+      \field{journaltitle}{Transportation Research Procedia}
+      \field{title}{{Spatio-Temporal Congestion Patterns in Urban Traffic Networks}}
+      \field{volume}{15}
+      \field{year}{2016}
+      \field{pages}{513\bibrangedash 524}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/j.trpro.2016.06.043
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Rempe, Huber, Bogenberger/Transportation Research Procedia/Rempe, Huber, Bogenberger - 2016 - Spatio-Temporal Congestion Patterns in Urban Traffic Networks.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1016/j.trpro.2016.06.043
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1016/j.trpro.2016.06.043
+      \endverb
+      \keyw{congestion analysis,network clustering,probe data,traffic estimation,traffic prediction}
+    \endentry
+    \entry{Schrank2011}{report}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1e664f69e23865bc150ec3eb05382b3b}{%
+           family={Schrank},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c9650ef38aaf0b0804cc2361b9e23b39}{%
+           family={Lomax},
+           familyi={L\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b06bbd25cf4342cb96d87f4910c28b00}{%
+           family={Eisele},
+           familyi={E\bibinitperiod},
+           given={Bill},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Texas Transportation Institute}%
+      }
+      \strng{namehash}{222ab445cc41c0ba6f19b7d60b470165}
+      \strng{fullhash}{222ab445cc41c0ba6f19b7d60b470165}
+      \strng{bibnamehash}{222ab445cc41c0ba6f19b7d60b470165}
+      \strng{authorbibnamehash}{222ab445cc41c0ba6f19b7d60b470165}
+      \strng{authornamehash}{222ab445cc41c0ba6f19b7d60b470165}
+      \strng{authorfullhash}{222ab445cc41c0ba6f19b7d60b470165}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{September}
+      \field{title}{{TTI's 2011 URBAN MOBILITY REPORT Powered by INRIX Traffic Data}}
+      \field{type}{techreport}
+      \field{year}{2011}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Schrank, Lomax, Eisele/Unknown/Schrank, Lomax, Eisele - 2011 - TTI's 2011 URBAN MOBILITY REPORT Powered by INRIX Traffic Data.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Skabardonis2003}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=a73cbd9f60f24692b7e8f6efb1ffb3f3}{%
+           family={Skabardonis},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0690707bf7b98342cce0da056d121d00}{%
+           family={Varaiya},
+           familyi={V\bibinitperiod},
+           given={Pravin},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=59a5bfe879688f64a6362fed2e42b386}{%
+           family={Petty},
+           familyi={P\bibinitperiod},
+           given={Karl\bibnamedelima F.},
+           giveni={K\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{24470b0eeccc2565cc4495dc11deb437}
+      \strng{fullhash}{24470b0eeccc2565cc4495dc11deb437}
+      \strng{bibnamehash}{24470b0eeccc2565cc4495dc11deb437}
+      \strng{authorbibnamehash}{24470b0eeccc2565cc4495dc11deb437}
+      \strng{authornamehash}{24470b0eeccc2565cc4495dc11deb437}
+      \strng{authorfullhash}{24470b0eeccc2565cc4495dc11deb437}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A methodology and its application to measure total, recurrent, and nonrecurrent (incident related) delay on urban freeways are described. The methodology used data from loop detectors and calculated the average and the probability distribution of delays. Application of the methodology to two real-life freeway corridors in Los Angeles, California, and one in the San Francisco, California, Bay Area, indicated that reliable measurement of congestion also should provide measures of uncertainty in congestion. In the three applications, incident-related delay was found to be 13{\%} to 30{\%} of the total congestion delay during peak periods. The methodology also quantified the congestion impacts on travel time and travel time variability.}
+      \field{issn}{03611981}
+      \field{journaltitle}{Transportation Research Record}
+      \field{number}{1856}
+      \field{title}{{Measuring Recurrent and Nonrecurrent Traffic Congestion}}
+      \field{year}{2003}
+      \field{pages}{118\bibrangedash 124}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.3141/1856-12
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Skabardonis, Varaiya, Petty/Transportation Research Record/Skabardonis, Varaiya, Petty - 2003 - Measuring Recurrent and Nonrecurrent Traffic Congestion.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Stempfel2016}{article}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=fefe94766216dd5cfa79e7a87bdb41fc}{%
+           family={Stempfel},
+           familyi={S\bibinitperiod},
+           given={Julie},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d4fd3ab28fb169ed76b65661cd57ed92}{%
+           family={Guler},
+           familyi={G\bibinitperiod},
+           given={S.\bibnamedelimi Ilgin},
+           giveni={S\bibinitperiod\bibinitdelim I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c44ddd2057cd1dfda251dc40913b1ce1}{%
+           family={Men{é}ndez},
+           familyi={M\bibinitperiod},
+           given={M{ó}nica},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2052c840c0c9f20e63c4c13cb499cd26}{%
+           family={Brucks},
+           familyi={B\bibinitperiod},
+           given={Wernher\bibnamedelima M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor {\&} Francis}%
+      }
+      \strng{namehash}{61ff5fee006558e0c58010ae22335c6d}
+      \strng{fullhash}{48fb51f8392dc8e75afc926c3316f680}
+      \strng{bibnamehash}{61ff5fee006558e0c58010ae22335c6d}
+      \strng{authorbibnamehash}{61ff5fee006558e0c58010ae22335c6d}
+      \strng{authornamehash}{61ff5fee006558e0c58010ae22335c6d}
+      \strng{authorfullhash}{48fb51f8392dc8e75afc926c3316f680}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The objective of this work is to understand if on urban roads, traffic safety can be linked to traffic congestion. To do so, crash data for the network of Zurich, Switzerland, is linked to traffic data describing congestion from the same network. By aggregating the data, the crash risk in relation to traffic states is analyzed: (1) over the entire network for different times of day and (2) for individual links with different congestion levels. It is found that at the network level, the crash risk (number of crashes per car) is higher during times when the average network speed is lower (5–7 p.m.). Lower speeds are observed during this time period typically due to congestion. Hence, at the network level, there is evidence for congestion being an indicator of increased crash risk. During the same (congested) time period, it is also observed that crashes mostly happen on links with medium speeds, which could be due to higher speed variations within individual links during the congested time periods.}
+      \field{issn}{19439970}
+      \field{journaltitle}{Journal of Transportation Safety and Security}
+      \field{number}{3}
+      \field{title}{{Effects of urban congestion on safety of networks}}
+      \field{volume}{8}
+      \field{year}{2016}
+      \field{pages}{214\bibrangedash 229}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1080/19439962.2015.1007193
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Stempfel et al/Journal of Transportation Safety and Security/Stempfel et al. - 2016 - Effects of urban congestion on safety of networks.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1080/19439962.2015.1007193
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1080/19439962.2015.1007193
+      \endverb
+      \keyw{congestion,safety,urban networks}
+    \endentry
+    \entry{Stopher2006}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=16517e13b037735d87c65d78ca646458}{%
+           family={Stopher},
+           familyi={S\bibinitperiod},
+           given={Peter\bibnamedelima R},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{16517e13b037735d87c65d78ca646458}
+      \strng{fullhash}{16517e13b037735d87c65d78ca646458}
+      \strng{bibnamehash}{16517e13b037735d87c65d78ca646458}
+      \strng{authorbibnamehash}{16517e13b037735d87c65d78ca646458}
+      \strng{authornamehash}{16517e13b037735d87c65d78ca646458}
+      \strng{authorfullhash}{16517e13b037735d87c65d78ca646458}
+      \field{sortinit}{S}
+      \field{sortinithash}{c319cff79d99c853d775f88277d4e45f}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{2004}
+      \field{title}{{Reducing road congestion : a reality check}}
+      \field{volume}{11}
+      \field{year}{2006}
+      \field{pages}{117\bibrangedash 131}
+      \range{pages}{15}
+      \verb{doi}
+      \verb 10.1016/j.tranpol.2003.09.002
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Stopher/Unknown/Stopher - 2006 - Reducing road congestion a reality check.pdf:pdf
+      \endverb
+    \endentry
+    \entry{TheTexasA&MTransportationInstitute2019}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2fc2682ca2b4c6671aae177499b2595b}{%
+           family={{The Texas A{\&}M Transportation Institute}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fc2682ca2b4c6671aae177499b2595b}
+      \strng{fullhash}{2fc2682ca2b4c6671aae177499b2595b}
+      \strng{bibnamehash}{2fc2682ca2b4c6671aae177499b2595b}
+      \strng{authorbibnamehash}{2fc2682ca2b4c6671aae177499b2595b}
+      \strng{authornamehash}{2fc2682ca2b4c6671aae177499b2595b}
+      \strng{authorfullhash}{2fc2682ca2b4c6671aae177499b2595b}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Se muestran las graficas interactivas del reporte}
+      \field{number}{August}
+      \field{title}{{Urban Mobility Report}}
+      \field{type}{techreport}
+      \field{year}{2019}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/The Texas A{\&}M Transportation Institute/Unknown/The Texas A{\&}M Transportation Institute - 2019 - Urban Mobility Report.pdf:pdf
+      \endverb
+      \keyw{Congestion is back to its growth pattern. The 8‐ t,advanced technology – have not been deployed in su,better traffic operations,more travel options,new land development styles,see: https://mobility.tamu.edu/umr/,streets and public transportation}
+    \endentry
+    \entry{Thomson2000}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=94d5053e2ca246a5e66109c8e924bcfe}{%
+           family={Thomson},
+           familyi={T\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {CEPAL}%
+      }
+      \strng{namehash}{94d5053e2ca246a5e66109c8e924bcfe}
+      \strng{fullhash}{94d5053e2ca246a5e66109c8e924bcfe}
+      \strng{bibnamehash}{94d5053e2ca246a5e66109c8e924bcfe}
+      \strng{authorbibnamehash}{94d5053e2ca246a5e66109c8e924bcfe}
+      \strng{authornamehash}{94d5053e2ca246a5e66109c8e924bcfe}
+      \strng{authorfullhash}{94d5053e2ca246a5e66109c8e924bcfe}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{Algunos conceptos b{á}sicos sobre las causas y soluciones del problema de la congesti{ó}n de tr{á}nsito}}
+      \field{type}{techreport}
+      \field{year}{2000}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Ian/Unknown/Ian - 2000 - Algunos conceptos b{\'{a}}sicos sobre las causas y soluciones del problema de la congesti{\'{o}}n de tr{\'{a}}nsito.pdf:pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://repositorio.cepal.org/handle/11362/31490
+      \endverb
+      \verb{url}
+      \verb https://repositorio.cepal.org/handle/11362/31490
+      \endverb
+    \endentry
+    \entry{TomTom2018}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=707e8f09260192a8637894faf8903d03}{%
+           family={{Tom Tom}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{707e8f09260192a8637894faf8903d03}
+      \strng{fullhash}{707e8f09260192a8637894faf8903d03}
+      \strng{bibnamehash}{707e8f09260192a8637894faf8903d03}
+      \strng{authorbibnamehash}{707e8f09260192a8637894faf8903d03}
+      \strng{authornamehash}{707e8f09260192a8637894faf8903d03}
+      \strng{authorfullhash}{707e8f09260192a8637894faf8903d03}
+      \field{sortinit}{T}
+      \field{sortinithash}{51f9faf24c60c62ca764a77f78cf5666}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{{TOMTOM Traffic Index 2018}}
+      \field{urlday}{4}
+      \field{urlmonth}{1}
+      \field{urlyear}{2020}
+      \field{year}{2018}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.tomtom.com/en{\_}gb/traffic-index/ranking/
+      \endverb
+      \verb{url}
+      \verb https://www.tomtom.com/en%7B%5C_%7Dgb/traffic-index/ranking/
+      \endverb
+    \endentry
+    \entry{UN2018}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0433a030f35fe613ec8cf50417323dea}{%
+           family={UN},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{fullhash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{bibnamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorbibnamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authornamehash}{0433a030f35fe613ec8cf50417323dea}
+      \strng{authorfullhash}{0433a030f35fe613ec8cf50417323dea}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In 2018, an estimated 55.3 per cent of the world's population lived in urban settlements. By 2030, urban areas are projected to house 60 per cent of people globally and one in every three people will live in cities with at least half a million inhab- itants. Understanding the key trends in urbaniza- tion likely to unfold over the coming years is cru- cial to the implementation of the 2030 Agenda for Sustainable Development, including Sustain- able Development Goal 11, to make cities and human settlements inclusive, safe, resilient and sustainable. This data booklet highlights current and future trajectories of populations in cities around the globe, drawing on the population estimates and projections published in World Urbanization Prospects: The 2018 Revision.}
+      \field{isbn}{ISBN 978-92-1-151549-7}
+      \field{journaltitle}{The World's Cities in 2018 - Data Booklet (ST/ESA/ SER.A/417)}
+      \field{title}{{The World 's Cities in 2018}}
+      \field{year}{2018}
+      \field{pages}{34}
+      \range{pages}{1}
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/UN/The World's Cities in 2018 - Data Booklet (STESA SER.A417)/UN - 2018 - The World 's Cities in 2018.pdf:pdf
+      \endverb
+    \endentry
+    \entry{sdgs2016}{report}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3cc54e2c0d69c1b76b4d49edb22dd6d1}{%
+           family={{United Nations}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {United Nations}%
+      }
+      \strng{namehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{fullhash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{bibnamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authorbibnamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authornamehash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \strng{authorfullhash}{3cc54e2c0d69c1b76b4d49edb22dd6d1}
+      \field{sortinit}{U}
+      \field{sortinithash}{77a6935510e008adcf5b555e7b4f0711}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The 193-Member United Nations General Assembly today formally adopted the 2030 Agenda for Sustainable Development, along with a set of bold new Global Goals, which Secretary-General Ban Ki-moon hailed as a universal, integrated and transformative vision for a better world. “The new agenda is a promise by leaders to all people everywhere. It is an agenda for people, to end poverty in all its forms – an agenda for the planet, our common home,” declared Mr. Ban as he opened the UN Sustainable Development Summit which kicked off today and wraps up Sunday. The UN chief's address came ahead of the Assembly's formal adoption of the new framework, Transforming Our World: the 2030 Agenda for Sustainable Development, which is composed of 17 goals and 169 targets to wipe out poverty, fight inequality and tackle climate over the next 15 years. The Goals aim to build on the work of the historic Millennium Development Goals (MDGs), which in September 2000, rallied the world around a common 15-year agenda to tackle the indignity of poverty. The Summit opened with a full programme of events, including a screening of the film The Earth From Space, performances by UN Goodwill Ambassadors Shakira Angelique Kidjo, as well as call to action by female education advocate and the youngest-ever Nobel Laureate, Malala Yousafzai along with youth representatives as torch bearers to a sustainable future. The adoption ceremony was presided over by Danish Prime Minister Lars L{ø}kke Rasmussen and Ugandan President Yoweri Kaguta Museveni, who stressed the successes of the MDGSs and the need for the full implementation of the new Agenda. Speaking to the press after the adoption of the Agenda, Mr. Ban said: “These Goals are a blueprint for a better future. Now we must use the goals to transform the world. We will do that through partnership and through commitment. We must leave no-one behind. In his opening address to the Assembly, which also marks the Organization's 70th anniversary, the UN chief hailed the new framework as an agenda for shared prosperity, peace and partnership. “It conveys the urgency of climate action. It is rooted in gender equality and respect for the rights of all.” Mr. Ban urged the world leaders and others convened at the event to successfully implement the Global Goals or Agenda 30 by launching ‘renewed global partnership.' “The 2030 Agenda compels us to look beyond national boundaries and short-term interests and act in solidarity for the long-term. We can no longer afford to think and work in silos. Institutions will have to become fit for a grand new purpose. The United Nations system is strongly committed to supporting Member States in this great new endeavour,” said Mr. Ban. “We must engage all actors, as we did in shaping the Agenda. We must include parliaments and local governments, and work with cities and rural areas. We must rally businesses and entrepreneurs. We must involve civil society in defining and implementing policies – and give it the space to hold us to account. We must listen to scientists and academia. We will need to embrace a data revolution. Most important, we must set to work – now,” added the Secretary-General. “Seventy years ago, the United Nations rose from the ashes of war. Governments agreed on a visionary Charter dedicated to ‘We the Peoples'. The Agenda you are adopting today advances the goals of the Charter. It embodies the aspirations of people everywhere for lives of peace, security and dignity on a healthy planet,” said Mr. Ban. General Assembly President Mogens Lykketoft called the 2030 Agenda on Sustainable Development “ambitious” in confronting the injustices of poverty, marginalization and discrimination. “We recognize the need to reduce inequalities and to protect our common home by changing unsustainable patterns of consumption and production. And, we identify the overwhelming need to address the politics of division, corruption and irresponsibility that fuel conflict and hold back development,” he said. On the adoption of the new agenda, UN Economic and Social Council President (ECOSOC) Oh Joon said action on Sustainable Development Goals must start immediately. “The Economic and Social Council stands ready to kick-start the work on the new agenda,” he added. Source: UN News Centre}
+      \field{title}{{TRANSFORMING OUR WORLD: THE 2030 AGENDA FOR SUSTAINABLE DEVELOPMENT (A/RES/70/1)}}
+      \field{type}{techreport}
+      \field{year}{2016}
+      \field{pages}{12\bibrangedash 14}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1201/b20466-7
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/United Nations/Unknown/United Nations - 2016 - TRANSFORMING OUR WORLD THE 2030 AGENDA FOR SUSTAINABLE DEVELOPMENT (ARES701).pdf:pdf
+      \endverb
+    \endentry
+    \entry{Wang2015}{article}{}
+      \name{author}{5}{}{%
+        {{un=1,uniquepart=given,hash=14ef069f26ff09873656720065fa05d9}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Senzhang},
+           giveni={S\bibinitperiod},
+           givenun=1}}%
+        {{un=0,uniquepart=base,hash=8bc1c2c96c880e5bde99cc1aab8ec6ef}{%
+           family={He},
+           familyi={H\bibinitperiod},
+           given={Lifang},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd76cde4606fda3038006b90094b7d77}{%
+           family={Stenneth},
+           familyi={S\bibinitperiod},
+           given={Leon},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ed7b2de2f08bfa6638d5d174d55d839b}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Philip\bibnamedelima S.},
+           giveni={P\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5756883fe146f8c0788104bc4fc41e77}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhoujun},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{459788adc548958561ffcbe7fb3e0c37}
+      \strng{fullhash}{6d9a723ed31c528bb5a6520bbbbb614b}
+      \strng{bibnamehash}{459788adc548958561ffcbe7fb3e0c37}
+      \strng{authorbibnamehash}{459788adc548958561ffcbe7fb3e0c37}
+      \strng{authornamehash}{459788adc548958561ffcbe7fb3e0c37}
+      \strng{authorfullhash}{6d9a723ed31c528bb5a6520bbbbb614b}
+      \field{sortinit}{W}
+      \field{sortinithash}{1af34bd8c148ffb32de1494636b49713}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Conventional traffic congestion estimation approaches require the deployment of traffic sensors or large-scale probe vehicles. The high cost of deploying and maintaining these equipments largely limits their spatial-temporal coverage. This paper proposes an alternative solution with lower cost and wider spatial coverage by exploring traffic related information from Twitter. By regarding each Twitter user as a traffic monitoring sensor, various real-time traffic information can be collected freely from each corner of the city. However, there are two major challenges for this problem. Firstly, the congestion related information extracted directly from real-time tweets are very sparse due both to the low resolution of geographic location mentioned in the tweets and the inherent sparsity nature of Twitter data. Secondly, the traffic event information coming from Twitter can be multi-typed including congestion, accident, road construction, etc. It is non-trivial to model the potential impacts of diverse traffic events on traffic congestion. We propose to enrich the sparse real-time tweets from two directions: 1) mining the spatial and temporal correlations of the road segments in congestion from historical data, and 2) applying auxiliary information including social events and road features for help. We finally propose a coupled matrix and tensor factorization model to effectively integrate rich information for Citywide Traffic Congestion Eestimation (CTCE). Extensive evaluations on Twitter data and 500 million public passenger buses GPS data on nearly 700 mile roads of Chicago demonstrate the efficiency and effectiveness of the proposed approach.}
+      \field{isbn}{9781450339674}
+      \field{journaltitle}{GIS: Proceedings of the ACM International Symposium on Advances in Geographic Information Systems}
+      \field{title}{{Citywide traffic congestion estimation with social media}}
+      \field{volume}{03-06-Nove}
+      \field{year}{2015}
+      \verb{doi}
+      \verb 10.1145/2820783.2820829
+      \endverb
+      \verb{file}
+      \verb :C$\backslash$:/Users/edgardo/Documents/Mendeley Desktop/Wang et al/GIS Proceedings of the ACM International Symposium on Advances in Geographic Information Systems/Wang et al. - 2015 - Citywide traffic congestion estimation with social media.pdf:pdf
+      \endverb
+      \keyw{Congestion estimation,Social media,Tensor factorization}
     \endentry
   \enddatalist
 \endrefsection
