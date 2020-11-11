@@ -1,0 +1,22 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[0] Config.pm:307> INFO - Logfile is 'congestion_index.blg'
+[71] biber-MSWIN64:322> INFO - === 
+[89] Biber.pm:415> INFO - Reading 'congestion_index.bcf'
+[211] Biber.pm:943> INFO - Found 35 citekeys in bib section 0
+[227] Biber.pm:4256> INFO - Processing section 0
+[227] Utils.pm:75> INFO - Globbing data source 'Congested.bib'
+[237] Utils.pm:91> INFO - Globbed data source 'Congested.bib' to Congested.bib
+[252] Biber.pm:4455> INFO - Looking for bibtex format file 'Congested.bib' for section 0
+[261] bibtex.pm:1653> INFO - LaTeX decoding ...
+[359] bibtex.pm:1471> INFO - Found BibTeX data source 'Congested.bib'
+[361] Utils.pm:304> WARN - Duplicate entry key: 'Falcocchio2015' in file 'Congested.bib', skipping ...
+[363] Utils.pm:304> WARN - Duplicate entry key: 'TheTexasA&MTransportationInstitute2019' in file 'Congested.bib', skipping ...
+[418] Utils.pm:304> WARN - month field 'dec' in entry 'Diakaki2003' is not an integer - this will probably not sort properly.
+[453] Utils.pm:304> WARN - ISBN 'COM(2001) 370 final' in entry 'EuropeanCommission2001' is invalid - run biber with '--validate_datamodel' for details.
+[577] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[577] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[578] Biber.pm:4084> INFO - Sorting list 'nyt/global//global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[578] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[628] bbl.pm:652> INFO - Writing 'congestion_index.bbl' with encoding 'UTF-8'
+[651] bbl.pm:755> INFO - Output to congestion_index.bbl
+[655] Biber.pm:128> INFO - WARNINGS: 4
